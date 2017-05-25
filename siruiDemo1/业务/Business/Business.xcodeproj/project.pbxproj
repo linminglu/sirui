@@ -1,0 +1,1446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D3FA0CF1E9F151E00E30311 /* Connector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D3FA0CE1E9F151E00E30311 /* Connector.framework */; };
+		0D89B1821EA8BAC00033C3BE /* FZKBTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D89B1801EA8BAC00033C3BE /* FZKBTools.h */; };
+		0D89B1831EA8BAC00033C3BE /* FZKBTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D89B1811EA8BAC00033C3BE /* FZKBTools.m */; };
+		0D89B1891EA8BB710033C3BE /* KeyChainStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D89B1851EA8BB710033C3BE /* KeyChainStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D89B18A1EA8BB710033C3BE /* KeyChainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D89B1861EA8BB710033C3BE /* KeyChainStore.m */; };
+		0D89B18B1EA8BB710033C3BE /* UUID.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D89B1871EA8BB710033C3BE /* UUID.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D89B18C1EA8BB710033C3BE /* UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D89B1881EA8BB710033C3BE /* UUID.m */; };
+		0DBAAC8B1EA5D7F200CA727D /* SRInterceptorUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAAC891EA5D7F200CA727D /* SRInterceptorUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAC8C1EA5D7F200CA727D /* SRInterceptorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAAC8A1EA5D7F200CA727D /* SRInterceptorUtil.m */; };
+		0DBAAD201EA5E57A00CA727D /* FZKBAddBookingStartAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAAC921EA5E57A00CA727D /* FZKBAddBookingStartAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD211EA5E57A00CA727D /* FZKBAddBookingStartAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAAC931EA5E57A00CA727D /* FZKBAddBookingStartAction.m */; };
+		0DBAAD221EA5E57A00CA727D /* FZKBAddNewCarAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAAC951EA5E57A00CA727D /* FZKBAddNewCarAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD231EA5E57A00CA727D /* FZKBAddNewCarAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAAC961EA5E57A00CA727D /* FZKBAddNewCarAction.m */; };
+		0DBAAD241EA5E57A00CA727D /* FZKBBindTerminalAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAAC981EA5E57A00CA727D /* FZKBBindTerminalAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD251EA5E57A00CA727D /* FZKBBindTerminalAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAAC991EA5E57A00CA727D /* FZKBBindTerminalAction.m */; };
+		0DBAAD261EA5E57A00CA727D /* FZKBChangeDeviceAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAAC9B1EA5E57A00CA727D /* FZKBChangeDeviceAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD271EA5E57A00CA727D /* FZKBChangeDeviceAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAAC9C1EA5E57A00CA727D /* FZKBChangeDeviceAction.m */; };
+		0DBAAD281EA5E57A00CA727D /* FZKBConfirmWarningAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAAC9E1EA5E57A00CA727D /* FZKBConfirmWarningAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD291EA5E57A00CA727D /* FZKBConfirmWarningAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAAC9F1EA5E57A00CA727D /* FZKBConfirmWarningAction.m */; };
+		0DBAAD2A1EA5E57A00CA727D /* FZKBDeleteBookingStartAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAACA11EA5E57A00CA727D /* FZKBDeleteBookingStartAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD2B1EA5E57A00CA727D /* FZKBDeleteBookingStartAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAACA21EA5E57A00CA727D /* FZKBDeleteBookingStartAction.m */; };
+		0DBAAD2C1EA5E57A00CA727D /* FZKBDeleteVehicleAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAACA41EA5E57A00CA727D /* FZKBDeleteVehicleAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD2D1EA5E57A00CA727D /* FZKBDeleteVehicleAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAACA51EA5E57A00CA727D /* FZKBDeleteVehicleAction.m */; };
+		0DBAAD2E1EA5E57A00CA727D /* FZKBGetCarInfoAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAACA71EA5E57A00CA727D /* FZKBGetCarInfoAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD2F1EA5E57A00CA727D /* FZKBGetCarInfoAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAACA81EA5E57A00CA727D /* FZKBGetCarInfoAction.m */; };
+		0DBAAD301EA5E57A00CA727D /* FZKBGetWarningMessageAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAACAA1EA5E57A00CA727D /* FZKBGetWarningMessageAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD311EA5E57A00CA727D /* FZKBGetWarningMessageAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAACAB1EA5E57A00CA727D /* FZKBGetWarningMessageAction.m */; };
+		0DBAAD321EA5E57A00CA727D /* FZKBHideTripAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAACAD1EA5E57A00CA727D /* FZKBHideTripAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD331EA5E57A00CA727D /* FZKBHideTripAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAACAE1EA5E57A00CA727D /* FZKBHideTripAction.m */; };
+		0DBAAD341EA5E57A00CA727D /* FZKBOBDdiacrisisAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAACB01EA5E57A00CA727D /* FZKBOBDdiacrisisAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD351EA5E57A00CA727D /* FZKBOBDdiacrisisAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAACB11EA5E57A00CA727D /* FZKBOBDdiacrisisAction.m */; };
+		0DBAAD361EA5E57A00CA727D /* FZKBObdSetAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAACB31EA5E57A00CA727D /* FZKBObdSetAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD371EA5E57A00CA727D /* FZKBObdSetAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAACB41EA5E57A00CA727D /* FZKBObdSetAction.m */; };
+		0DBAAD381EA5E57A00CA727D /* FZKBPhoneControllAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAACB61EA5E57A00CA727D /* FZKBPhoneControllAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD391EA5E57A00CA727D /* FZKBPhoneControllAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAACB71EA5E57A00CA727D /* FZKBPhoneControllAction.m */; };
+		0DBAAD3A1EA5E57A00CA727D /* FZKBQueryBookingStartAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAACB91EA5E57A00CA727D /* FZKBQueryBookingStartAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD3B1EA5E57A00CA727D /* FZKBQueryBookingStartAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAACBA1EA5E57A00CA727D /* FZKBQueryBookingStartAction.m */; };
+		0DBAAD3C1EA5E57A00CA727D /* FZKBQueryBrandAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAACBC1EA5E57A00CA727D /* FZKBQueryBrandAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD3D1EA5E57A00CA727D /* FZKBQueryBrandAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAACBD1EA5E57A00CA727D /* FZKBQueryBrandAction.m */; };
+		0DBAAD3E1EA5E57A00CA727D /* FZKBQueryCarSeriesAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAACBF1EA5E57A00CA727D /* FZKBQueryCarSeriesAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD3F1EA5E57A00CA727D /* FZKBQueryCarSeriesAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAACC01EA5E57A00CA727D /* FZKBQueryCarSeriesAction.m */; };
+		0DBAAD401EA5E57A00CA727D /* FZKBQueryFenceAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAACC21EA5E57A00CA727D /* FZKBQueryFenceAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD411EA5E57A00CA727D /* FZKBQueryFenceAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAACC31EA5E57A00CA727D /* FZKBQueryFenceAction.m */; };
+		0DBAAD421EA5E57A00CA727D /* FZKBUnbindTerminalAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAACC51EA5E57A00CA727D /* FZKBUnbindTerminalAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD431EA5E57A00CA727D /* FZKBUnbindTerminalAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAACC61EA5E57A00CA727D /* FZKBUnbindTerminalAction.m */; };
+		0DBAAD441EA5E57A00CA727D /* FZKBUpdateBookingStartAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAACC81EA5E57A00CA727D /* FZKBUpdateBookingStartAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD451EA5E57A00CA727D /* FZKBUpdateBookingStartAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAACC91EA5E57A00CA727D /* FZKBUpdateBookingStartAction.m */; };
+		0DBAAD461EA5E57A00CA727D /* FZKBUpdateFenceAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAACCB1EA5E57A00CA727D /* FZKBUpdateFenceAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD471EA5E57A00CA727D /* FZKBUpdateFenceAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAACCC1EA5E57A00CA727D /* FZKBUpdateFenceAction.m */; };
+		0DBAAD481EA5E57A00CA727D /* FZKBUpdatePlateNumberAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAACCE1EA5E57A00CA727D /* FZKBUpdatePlateNumberAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD491EA5E57A00CA727D /* FZKBUpdatePlateNumberAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAACCF1EA5E57A00CA727D /* FZKBUpdatePlateNumberAction.m */; };
+		0DBAAD4A1EA5E57A00CA727D /* FZKBVehicleStatusAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAACD11EA5E57A00CA727D /* FZKBVehicleStatusAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD4B1EA5E57A00CA727D /* FZKBVehicleStatusAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAACD21EA5E57A00CA727D /* FZKBVehicleStatusAction.m */; };
+		0DBAAD4C1EA5E57A00CA727D /* FZKBVerifyIMEIAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAACD41EA5E57A00CA727D /* FZKBVerifyIMEIAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD4D1EA5E57A00CA727D /* FZKBVerifyIMEIAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAACD51EA5E57A00CA727D /* FZKBVerifyIMEIAction.m */; };
+		0DBAAD4E1EA5E57A00CA727D /* FZKBPayOrderWXAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAACD81EA5E57A00CA727D /* FZKBPayOrderWXAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD4F1EA5E57A00CA727D /* FZKBPayOrderWXAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAACD91EA5E57A00CA727D /* FZKBPayOrderWXAction.m */; };
+		0DBAAD501EA5E57A00CA727D /* FZKBPayOrderZFBAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAACDB1EA5E57A00CA727D /* FZKBPayOrderZFBAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD511EA5E57A00CA727D /* FZKBPayOrderZFBAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAACDC1EA5E57A00CA727D /* FZKBPayOrderZFBAction.m */; };
+		0DBAAD521EA5E57A00CA727D /* FZKBQueryXuFeiServiceAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAACDE1EA5E57A00CA727D /* FZKBQueryXuFeiServiceAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD531EA5E57A00CA727D /* FZKBQueryXuFeiServiceAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAACDF1EA5E57A00CA727D /* FZKBQueryXuFeiServiceAction.m */; };
+		0DBAAD541EA5E57A00CA727D /* FZKBAccountComplaintAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAACE21EA5E57A00CA727D /* FZKBAccountComplaintAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD551EA5E57A00CA727D /* FZKBAccountComplaintAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAACE31EA5E57A00CA727D /* FZKBAccountComplaintAction.m */; };
+		0DBAAD561EA5E57A00CA727D /* FZKBCustomerRegisterAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAACE51EA5E57A00CA727D /* FZKBCustomerRegisterAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD571EA5E57A00CA727D /* FZKBCustomerRegisterAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAACE61EA5E57A00CA727D /* FZKBCustomerRegisterAction.m */; };
+		0DBAAD581EA5E57A00CA727D /* FZKBGetAuthCodeAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAACE81EA5E57A00CA727D /* FZKBGetAuthCodeAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD591EA5E57A00CA727D /* FZKBGetAuthCodeAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAACE91EA5E57A00CA727D /* FZKBGetAuthCodeAction.m */; };
+		0DBAAD5A1EA5E57A00CA727D /* FZKBGetAuthCodeRegisterAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAACEB1EA5E57A00CA727D /* FZKBGetAuthCodeRegisterAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD5B1EA5E57A00CA727D /* FZKBGetAuthCodeRegisterAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAACEC1EA5E57A00CA727D /* FZKBGetAuthCodeRegisterAction.m */; };
+		0DBAAD5C1EA5E57A00CA727D /* FZKBInitializeDetailSwitchAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAACEE1EA5E57A00CA727D /* FZKBInitializeDetailSwitchAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD5D1EA5E57A00CA727D /* FZKBInitializeDetailSwitchAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAACEF1EA5E57A00CA727D /* FZKBInitializeDetailSwitchAction.m */; };
+		0DBAAD5E1EA5E57A00CA727D /* FZKBLoginAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAACF11EA5E57A00CA727D /* FZKBLoginAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD5F1EA5E57A00CA727D /* FZKBLoginAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAACF21EA5E57A00CA727D /* FZKBLoginAction.m */; };
+		0DBAAD601EA5E57A00CA727D /* FZKBLoginOutAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAACF41EA5E57A00CA727D /* FZKBLoginOutAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD611EA5E57A00CA727D /* FZKBLoginOutAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAACF51EA5E57A00CA727D /* FZKBLoginOutAction.m */; };
+		0DBAAD621EA5E57A00CA727D /* FZKBMessageSetSwitchAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAACF71EA5E57A00CA727D /* FZKBMessageSetSwitchAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD631EA5E57A00CA727D /* FZKBMessageSetSwitchAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAACF81EA5E57A00CA727D /* FZKBMessageSetSwitchAction.m */; };
+		0DBAAD641EA5E57A00CA727D /* FZKBPhoneBindingAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAACFA1EA5E57A00CA727D /* FZKBPhoneBindingAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD651EA5E57A00CA727D /* FZKBPhoneBindingAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAACFB1EA5E57A00CA727D /* FZKBPhoneBindingAction.m */; };
+		0DBAAD661EA5E57A00CA727D /* FZKBPhoneUnbindAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAACFD1EA5E57A00CA727D /* FZKBPhoneUnbindAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD671EA5E57A00CA727D /* FZKBPhoneUnbindAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAACFE1EA5E57A00CA727D /* FZKBPhoneUnbindAction.m */; };
+		0DBAAD681EA5E57A00CA727D /* FZKBQueryScoreAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAAD001EA5E57A00CA727D /* FZKBQueryScoreAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD691EA5E57A00CA727D /* FZKBQueryScoreAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAAD011EA5E57A00CA727D /* FZKBQueryScoreAction.m */; };
+		0DBAAD6A1EA5E57A00CA727D /* FZKBQueryWebAppVersionsAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAAD031EA5E57A00CA727D /* FZKBQueryWebAppVersionsAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD6B1EA5E57A00CA727D /* FZKBQueryWebAppVersionsAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAAD041EA5E57A00CA727D /* FZKBQueryWebAppVersionsAction.m */; };
+		0DBAAD6C1EA5E57A00CA727D /* FZKBRegistCustomerAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAAD061EA5E57A00CA727D /* FZKBRegistCustomerAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD6D1EA5E57A00CA727D /* FZKBRegistCustomerAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAAD071EA5E57A00CA727D /* FZKBRegistCustomerAction.m */; };
+		0DBAAD6E1EA5E57A00CA727D /* FZKBSRSendMessageAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAAD091EA5E57A00CA727D /* FZKBSRSendMessageAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD6F1EA5E57A00CA727D /* FZKBSRSendMessageAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAAD0A1EA5E57A00CA727D /* FZKBSRSendMessageAction.m */; };
+		0DBAAD701EA5E57A00CA727D /* FZKBSRstewardAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAAD0C1EA5E57A00CA727D /* FZKBSRstewardAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD711EA5E57A00CA727D /* FZKBSRstewardAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAAD0D1EA5E57A00CA727D /* FZKBSRstewardAction.m */; };
+		0DBAAD721EA5E57A00CA727D /* FZKBSRstewardListAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAAD0F1EA5E57A00CA727D /* FZKBSRstewardListAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD731EA5E57A00CA727D /* FZKBSRstewardListAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAAD101EA5E57A00CA727D /* FZKBSRstewardListAction.m */; };
+		0DBAAD741EA5E57A00CA727D /* FZKBSubmitScoreAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAAD121EA5E57A00CA727D /* FZKBSubmitScoreAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD751EA5E57A00CA727D /* FZKBSubmitScoreAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAAD131EA5E57A00CA727D /* FZKBSubmitScoreAction.m */; };
+		0DBAAD761EA5E57A00CA727D /* FZKBUpdatePassWordAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAAD151EA5E57A00CA727D /* FZKBUpdatePassWordAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD771EA5E57A00CA727D /* FZKBUpdatePassWordAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAAD161EA5E57A00CA727D /* FZKBUpdatePassWordAction.m */; };
+		0DBAAD781EA5E57A00CA727D /* FZKBUpdateSubmissionAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAAD181EA5E57A00CA727D /* FZKBUpdateSubmissionAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD791EA5E57A00CA727D /* FZKBUpdateSubmissionAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAAD191EA5E57A00CA727D /* FZKBUpdateSubmissionAction.m */; };
+		0DBAAD7A1EA5E57A00CA727D /* FZKBValidateImeiAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAAD1B1EA5E57A00CA727D /* FZKBValidateImeiAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD7B1EA5E57A00CA727D /* FZKBValidateImeiAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAAD1C1EA5E57A00CA727D /* FZKBValidateImeiAction.m */; };
+		0DBAAD7C1EA5E57A00CA727D /* FZKBVisitorLoginAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBAAD1E1EA5E57A00CA727D /* FZKBVisitorLoginAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBAAD7D1EA5E57A00CA727D /* FZKBVisitorLoginAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBAAD1F1EA5E57A00CA727D /* FZKBVisitorLoginAction.m */; };
+		0DE8DAC01E9F13370064733A /* Business.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DE8DABE1E9F13370064733A /* Business.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DEFE5401EC5A947001B518B /* BusinessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DEFE53F1EC5A947001B518B /* BusinessTests.m */; };
+		0DEFE5421EC5A947001B518B /* Business.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DE8DABB1E9F13370064733A /* Business.framework */; };
+		0DEFE5571EC5AA65001B518B /* Connector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D3FA0CE1E9F151E00E30311 /* Connector.framework */; };
+		123B5943A6067B99EF935ABB /* libPods-Business.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC53AD3D4414468879B14A81 /* libPods-Business.a */; };
+		798DFED11E8071D124DE0609 /* libPods-BusinessTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF63069E5A6FBE48E5F0CFB /* libPods-BusinessTests.a */; };
+		E85ED0F61EBB3013005641CD /* FZKBQueryTripGpsPointsAction.h in Headers */ = {isa = PBXBuildFile; fileRef = E85ED0F41EBB3013005641CD /* FZKBQueryTripGpsPointsAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E85ED0F71EBB3013005641CD /* FZKBQueryTripGpsPointsAction.m in Sources */ = {isa = PBXBuildFile; fileRef = E85ED0F51EBB3013005641CD /* FZKBQueryTripGpsPointsAction.m */; };
+		E86CC6BC1EBB0F5400004920 /* FZKBQueryTripListAction.h in Headers */ = {isa = PBXBuildFile; fileRef = E86CC6BA1EBB0F5400004920 /* FZKBQueryTripListAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E86CC6BD1EBB0F5400004920 /* FZKBQueryTripListAction.m in Sources */ = {isa = PBXBuildFile; fileRef = E86CC6BB1EBB0F5400004920 /* FZKBQueryTripListAction.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DEFE5431EC5A947001B518B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DE8DAB21E9F13370064733A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DE8DABA1E9F13370064733A;
+			remoteInfo = Business;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D3FA0CE1E9F151E00E30311 /* Connector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Connector.framework; sourceTree = "<group>"; };
+		0D89B1801EA8BAC00033C3BE /* FZKBTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBTools.h; sourceTree = "<group>"; };
+		0D89B1811EA8BAC00033C3BE /* FZKBTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBTools.m; sourceTree = "<group>"; };
+		0D89B1851EA8BB710033C3BE /* KeyChainStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyChainStore.h; sourceTree = "<group>"; };
+		0D89B1861EA8BB710033C3BE /* KeyChainStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyChainStore.m; sourceTree = "<group>"; };
+		0D89B1871EA8BB710033C3BE /* UUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUID.h; sourceTree = "<group>"; };
+		0D89B1881EA8BB710033C3BE /* UUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUID.m; sourceTree = "<group>"; };
+		0DBAAC891EA5D7F200CA727D /* SRInterceptorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRInterceptorUtil.h; sourceTree = "<group>"; };
+		0DBAAC8A1EA5D7F200CA727D /* SRInterceptorUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRInterceptorUtil.m; sourceTree = "<group>"; };
+		0DBAAC921EA5E57A00CA727D /* FZKBAddBookingStartAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBAddBookingStartAction.h; sourceTree = "<group>"; };
+		0DBAAC931EA5E57A00CA727D /* FZKBAddBookingStartAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBAddBookingStartAction.m; sourceTree = "<group>"; };
+		0DBAAC951EA5E57A00CA727D /* FZKBAddNewCarAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBAddNewCarAction.h; sourceTree = "<group>"; };
+		0DBAAC961EA5E57A00CA727D /* FZKBAddNewCarAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBAddNewCarAction.m; sourceTree = "<group>"; };
+		0DBAAC981EA5E57A00CA727D /* FZKBBindTerminalAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBBindTerminalAction.h; sourceTree = "<group>"; };
+		0DBAAC991EA5E57A00CA727D /* FZKBBindTerminalAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBBindTerminalAction.m; sourceTree = "<group>"; };
+		0DBAAC9B1EA5E57A00CA727D /* FZKBChangeDeviceAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBChangeDeviceAction.h; sourceTree = "<group>"; };
+		0DBAAC9C1EA5E57A00CA727D /* FZKBChangeDeviceAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBChangeDeviceAction.m; sourceTree = "<group>"; };
+		0DBAAC9E1EA5E57A00CA727D /* FZKBConfirmWarningAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBConfirmWarningAction.h; sourceTree = "<group>"; };
+		0DBAAC9F1EA5E57A00CA727D /* FZKBConfirmWarningAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBConfirmWarningAction.m; sourceTree = "<group>"; };
+		0DBAACA11EA5E57A00CA727D /* FZKBDeleteBookingStartAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBDeleteBookingStartAction.h; sourceTree = "<group>"; };
+		0DBAACA21EA5E57A00CA727D /* FZKBDeleteBookingStartAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBDeleteBookingStartAction.m; sourceTree = "<group>"; };
+		0DBAACA41EA5E57A00CA727D /* FZKBDeleteVehicleAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBDeleteVehicleAction.h; sourceTree = "<group>"; };
+		0DBAACA51EA5E57A00CA727D /* FZKBDeleteVehicleAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBDeleteVehicleAction.m; sourceTree = "<group>"; };
+		0DBAACA71EA5E57A00CA727D /* FZKBGetCarInfoAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBGetCarInfoAction.h; sourceTree = "<group>"; };
+		0DBAACA81EA5E57A00CA727D /* FZKBGetCarInfoAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBGetCarInfoAction.m; sourceTree = "<group>"; };
+		0DBAACAA1EA5E57A00CA727D /* FZKBGetWarningMessageAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBGetWarningMessageAction.h; sourceTree = "<group>"; };
+		0DBAACAB1EA5E57A00CA727D /* FZKBGetWarningMessageAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBGetWarningMessageAction.m; sourceTree = "<group>"; };
+		0DBAACAD1EA5E57A00CA727D /* FZKBHideTripAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBHideTripAction.h; sourceTree = "<group>"; };
+		0DBAACAE1EA5E57A00CA727D /* FZKBHideTripAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBHideTripAction.m; sourceTree = "<group>"; };
+		0DBAACB01EA5E57A00CA727D /* FZKBOBDdiacrisisAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBOBDdiacrisisAction.h; sourceTree = "<group>"; };
+		0DBAACB11EA5E57A00CA727D /* FZKBOBDdiacrisisAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBOBDdiacrisisAction.m; sourceTree = "<group>"; };
+		0DBAACB31EA5E57A00CA727D /* FZKBObdSetAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBObdSetAction.h; sourceTree = "<group>"; };
+		0DBAACB41EA5E57A00CA727D /* FZKBObdSetAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBObdSetAction.m; sourceTree = "<group>"; };
+		0DBAACB61EA5E57A00CA727D /* FZKBPhoneControllAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBPhoneControllAction.h; sourceTree = "<group>"; };
+		0DBAACB71EA5E57A00CA727D /* FZKBPhoneControllAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBPhoneControllAction.m; sourceTree = "<group>"; };
+		0DBAACB91EA5E57A00CA727D /* FZKBQueryBookingStartAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBQueryBookingStartAction.h; sourceTree = "<group>"; };
+		0DBAACBA1EA5E57A00CA727D /* FZKBQueryBookingStartAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBQueryBookingStartAction.m; sourceTree = "<group>"; };
+		0DBAACBC1EA5E57A00CA727D /* FZKBQueryBrandAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBQueryBrandAction.h; sourceTree = "<group>"; };
+		0DBAACBD1EA5E57A00CA727D /* FZKBQueryBrandAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBQueryBrandAction.m; sourceTree = "<group>"; };
+		0DBAACBF1EA5E57A00CA727D /* FZKBQueryCarSeriesAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBQueryCarSeriesAction.h; sourceTree = "<group>"; };
+		0DBAACC01EA5E57A00CA727D /* FZKBQueryCarSeriesAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBQueryCarSeriesAction.m; sourceTree = "<group>"; };
+		0DBAACC21EA5E57A00CA727D /* FZKBQueryFenceAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBQueryFenceAction.h; sourceTree = "<group>"; };
+		0DBAACC31EA5E57A00CA727D /* FZKBQueryFenceAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBQueryFenceAction.m; sourceTree = "<group>"; };
+		0DBAACC51EA5E57A00CA727D /* FZKBUnbindTerminalAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBUnbindTerminalAction.h; sourceTree = "<group>"; };
+		0DBAACC61EA5E57A00CA727D /* FZKBUnbindTerminalAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBUnbindTerminalAction.m; sourceTree = "<group>"; };
+		0DBAACC81EA5E57A00CA727D /* FZKBUpdateBookingStartAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBUpdateBookingStartAction.h; sourceTree = "<group>"; };
+		0DBAACC91EA5E57A00CA727D /* FZKBUpdateBookingStartAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBUpdateBookingStartAction.m; sourceTree = "<group>"; };
+		0DBAACCB1EA5E57A00CA727D /* FZKBUpdateFenceAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBUpdateFenceAction.h; sourceTree = "<group>"; };
+		0DBAACCC1EA5E57A00CA727D /* FZKBUpdateFenceAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBUpdateFenceAction.m; sourceTree = "<group>"; };
+		0DBAACCE1EA5E57A00CA727D /* FZKBUpdatePlateNumberAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBUpdatePlateNumberAction.h; sourceTree = "<group>"; };
+		0DBAACCF1EA5E57A00CA727D /* FZKBUpdatePlateNumberAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBUpdatePlateNumberAction.m; sourceTree = "<group>"; };
+		0DBAACD11EA5E57A00CA727D /* FZKBVehicleStatusAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBVehicleStatusAction.h; sourceTree = "<group>"; };
+		0DBAACD21EA5E57A00CA727D /* FZKBVehicleStatusAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBVehicleStatusAction.m; sourceTree = "<group>"; };
+		0DBAACD41EA5E57A00CA727D /* FZKBVerifyIMEIAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBVerifyIMEIAction.h; sourceTree = "<group>"; };
+		0DBAACD51EA5E57A00CA727D /* FZKBVerifyIMEIAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBVerifyIMEIAction.m; sourceTree = "<group>"; };
+		0DBAACD81EA5E57A00CA727D /* FZKBPayOrderWXAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBPayOrderWXAction.h; sourceTree = "<group>"; };
+		0DBAACD91EA5E57A00CA727D /* FZKBPayOrderWXAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBPayOrderWXAction.m; sourceTree = "<group>"; };
+		0DBAACDB1EA5E57A00CA727D /* FZKBPayOrderZFBAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBPayOrderZFBAction.h; sourceTree = "<group>"; };
+		0DBAACDC1EA5E57A00CA727D /* FZKBPayOrderZFBAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBPayOrderZFBAction.m; sourceTree = "<group>"; };
+		0DBAACDE1EA5E57A00CA727D /* FZKBQueryXuFeiServiceAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBQueryXuFeiServiceAction.h; sourceTree = "<group>"; };
+		0DBAACDF1EA5E57A00CA727D /* FZKBQueryXuFeiServiceAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBQueryXuFeiServiceAction.m; sourceTree = "<group>"; };
+		0DBAACE21EA5E57A00CA727D /* FZKBAccountComplaintAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBAccountComplaintAction.h; sourceTree = "<group>"; };
+		0DBAACE31EA5E57A00CA727D /* FZKBAccountComplaintAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBAccountComplaintAction.m; sourceTree = "<group>"; };
+		0DBAACE51EA5E57A00CA727D /* FZKBCustomerRegisterAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBCustomerRegisterAction.h; sourceTree = "<group>"; };
+		0DBAACE61EA5E57A00CA727D /* FZKBCustomerRegisterAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBCustomerRegisterAction.m; sourceTree = "<group>"; };
+		0DBAACE81EA5E57A00CA727D /* FZKBGetAuthCodeAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBGetAuthCodeAction.h; sourceTree = "<group>"; };
+		0DBAACE91EA5E57A00CA727D /* FZKBGetAuthCodeAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBGetAuthCodeAction.m; sourceTree = "<group>"; };
+		0DBAACEB1EA5E57A00CA727D /* FZKBGetAuthCodeRegisterAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBGetAuthCodeRegisterAction.h; sourceTree = "<group>"; };
+		0DBAACEC1EA5E57A00CA727D /* FZKBGetAuthCodeRegisterAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBGetAuthCodeRegisterAction.m; sourceTree = "<group>"; };
+		0DBAACEE1EA5E57A00CA727D /* FZKBInitializeDetailSwitchAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBInitializeDetailSwitchAction.h; sourceTree = "<group>"; };
+		0DBAACEF1EA5E57A00CA727D /* FZKBInitializeDetailSwitchAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBInitializeDetailSwitchAction.m; sourceTree = "<group>"; };
+		0DBAACF11EA5E57A00CA727D /* FZKBLoginAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBLoginAction.h; sourceTree = "<group>"; };
+		0DBAACF21EA5E57A00CA727D /* FZKBLoginAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBLoginAction.m; sourceTree = "<group>"; };
+		0DBAACF41EA5E57A00CA727D /* FZKBLoginOutAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBLoginOutAction.h; sourceTree = "<group>"; };
+		0DBAACF51EA5E57A00CA727D /* FZKBLoginOutAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBLoginOutAction.m; sourceTree = "<group>"; };
+		0DBAACF71EA5E57A00CA727D /* FZKBMessageSetSwitchAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBMessageSetSwitchAction.h; sourceTree = "<group>"; };
+		0DBAACF81EA5E57A00CA727D /* FZKBMessageSetSwitchAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBMessageSetSwitchAction.m; sourceTree = "<group>"; };
+		0DBAACFA1EA5E57A00CA727D /* FZKBPhoneBindingAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBPhoneBindingAction.h; sourceTree = "<group>"; };
+		0DBAACFB1EA5E57A00CA727D /* FZKBPhoneBindingAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBPhoneBindingAction.m; sourceTree = "<group>"; };
+		0DBAACFD1EA5E57A00CA727D /* FZKBPhoneUnbindAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBPhoneUnbindAction.h; sourceTree = "<group>"; };
+		0DBAACFE1EA5E57A00CA727D /* FZKBPhoneUnbindAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBPhoneUnbindAction.m; sourceTree = "<group>"; };
+		0DBAAD001EA5E57A00CA727D /* FZKBQueryScoreAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBQueryScoreAction.h; sourceTree = "<group>"; };
+		0DBAAD011EA5E57A00CA727D /* FZKBQueryScoreAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBQueryScoreAction.m; sourceTree = "<group>"; };
+		0DBAAD031EA5E57A00CA727D /* FZKBQueryWebAppVersionsAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBQueryWebAppVersionsAction.h; sourceTree = "<group>"; };
+		0DBAAD041EA5E57A00CA727D /* FZKBQueryWebAppVersionsAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBQueryWebAppVersionsAction.m; sourceTree = "<group>"; };
+		0DBAAD061EA5E57A00CA727D /* FZKBRegistCustomerAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBRegistCustomerAction.h; sourceTree = "<group>"; };
+		0DBAAD071EA5E57A00CA727D /* FZKBRegistCustomerAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBRegistCustomerAction.m; sourceTree = "<group>"; };
+		0DBAAD091EA5E57A00CA727D /* FZKBSRSendMessageAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBSRSendMessageAction.h; sourceTree = "<group>"; };
+		0DBAAD0A1EA5E57A00CA727D /* FZKBSRSendMessageAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBSRSendMessageAction.m; sourceTree = "<group>"; };
+		0DBAAD0C1EA5E57A00CA727D /* FZKBSRstewardAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBSRstewardAction.h; sourceTree = "<group>"; };
+		0DBAAD0D1EA5E57A00CA727D /* FZKBSRstewardAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBSRstewardAction.m; sourceTree = "<group>"; };
+		0DBAAD0F1EA5E57A00CA727D /* FZKBSRstewardListAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBSRstewardListAction.h; sourceTree = "<group>"; };
+		0DBAAD101EA5E57A00CA727D /* FZKBSRstewardListAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBSRstewardListAction.m; sourceTree = "<group>"; };
+		0DBAAD121EA5E57A00CA727D /* FZKBSubmitScoreAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBSubmitScoreAction.h; sourceTree = "<group>"; };
+		0DBAAD131EA5E57A00CA727D /* FZKBSubmitScoreAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBSubmitScoreAction.m; sourceTree = "<group>"; };
+		0DBAAD151EA5E57A00CA727D /* FZKBUpdatePassWordAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBUpdatePassWordAction.h; sourceTree = "<group>"; };
+		0DBAAD161EA5E57A00CA727D /* FZKBUpdatePassWordAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBUpdatePassWordAction.m; sourceTree = "<group>"; };
+		0DBAAD181EA5E57A00CA727D /* FZKBUpdateSubmissionAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBUpdateSubmissionAction.h; sourceTree = "<group>"; };
+		0DBAAD191EA5E57A00CA727D /* FZKBUpdateSubmissionAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBUpdateSubmissionAction.m; sourceTree = "<group>"; };
+		0DBAAD1B1EA5E57A00CA727D /* FZKBValidateImeiAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBValidateImeiAction.h; sourceTree = "<group>"; };
+		0DBAAD1C1EA5E57A00CA727D /* FZKBValidateImeiAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBValidateImeiAction.m; sourceTree = "<group>"; };
+		0DBAAD1E1EA5E57A00CA727D /* FZKBVisitorLoginAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBVisitorLoginAction.h; sourceTree = "<group>"; };
+		0DBAAD1F1EA5E57A00CA727D /* FZKBVisitorLoginAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBVisitorLoginAction.m; sourceTree = "<group>"; };
+		0DE8DABB1E9F13370064733A /* Business.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Business.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DE8DABE1E9F13370064733A /* Business.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Business.h; sourceTree = "<group>"; };
+		0DE8DABF1E9F13370064733A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DEFE53D1EC5A947001B518B /* BusinessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusinessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DEFE53F1EC5A947001B518B /* BusinessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BusinessTests.m; sourceTree = "<group>"; };
+		0DEFE5411EC5A947001B518B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		364974B0D36C8012EE3526AC /* Pods-BusinessTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BusinessTests.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-BusinessTests/Pods-BusinessTests.release.xcconfig"; sourceTree = "<group>"; };
+		5DDD4289D5A719549F999EAA /* Pods-Business.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Business.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-Business/Pods-Business.debug.xcconfig"; sourceTree = "<group>"; };
+		B6B76E1091089F55540A2B04 /* Pods-BusinessTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BusinessTests.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-BusinessTests/Pods-BusinessTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B6CF8241F871544640BC8014 /* Pods-Business.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Business.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-Business/Pods-Business.release.xcconfig"; sourceTree = "<group>"; };
+		E85ED0F41EBB3013005641CD /* FZKBQueryTripGpsPointsAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBQueryTripGpsPointsAction.h; sourceTree = "<group>"; };
+		E85ED0F51EBB3013005641CD /* FZKBQueryTripGpsPointsAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBQueryTripGpsPointsAction.m; sourceTree = "<group>"; };
+		E86CC6BA1EBB0F5400004920 /* FZKBQueryTripListAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZKBQueryTripListAction.h; sourceTree = "<group>"; };
+		E86CC6BB1EBB0F5400004920 /* FZKBQueryTripListAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZKBQueryTripListAction.m; sourceTree = "<group>"; };
+		FBF63069E5A6FBE48E5F0CFB /* libPods-BusinessTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BusinessTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC53AD3D4414468879B14A81 /* libPods-Business.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Business.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DE8DAB71E9F13370064733A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D3FA0CF1E9F151E00E30311 /* Connector.framework in Frameworks */,
+				123B5943A6067B99EF935ABB /* libPods-Business.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DEFE53A1EC5A947001B518B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DEFE5421EC5A947001B518B /* Business.framework in Frameworks */,
+				0DEFE5571EC5AA65001B518B /* Connector.framework in Frameworks */,
+				798DFED11E8071D124DE0609 /* libPods-BusinessTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D89B1841EA8BB710033C3BE /* UUID */ = {
+			isa = PBXGroup;
+			children = (
+				0D89B1851EA8BB710033C3BE /* KeyChainStore.h */,
+				0D89B1861EA8BB710033C3BE /* KeyChainStore.m */,
+				0D89B1871EA8BB710033C3BE /* UUID.h */,
+				0D89B1881EA8BB710033C3BE /* UUID.m */,
+			);
+			path = UUID;
+			sourceTree = "<group>";
+		};
+		0DBAAC881EA5D7F200CA727D /* 工具 */ = {
+			isa = PBXGroup;
+			children = (
+				0D89B1841EA8BB710033C3BE /* UUID */,
+				0DBAAC891EA5D7F200CA727D /* SRInterceptorUtil.h */,
+				0DBAAC8A1EA5D7F200CA727D /* SRInterceptorUtil.m */,
+				0D89B1801EA8BAC00033C3BE /* FZKBTools.h */,
+				0D89B1811EA8BAC00033C3BE /* FZKBTools.m */,
+			);
+			path = "工具";
+			sourceTree = "<group>";
+		};
+		0DBAAC901EA5E57A00CA727D /* car */ = {
+			isa = PBXGroup;
+			children = (
+				E85ED0F31EBB2FFB005641CD /* queryTripGpsPoint */,
+				E86CC6B91EBB0F5400004920 /* querytriplist */,
+				E89462741EA70E6800952F0A /* carToAdd */,
+				0DBAAC911EA5E57A00CA727D /* addbookingstart */,
+				0DBAAC941EA5E57A00CA727D /* addnewcar */,
+				0DBAAC971EA5E57A00CA727D /* bindterminal */,
+				0DBAAC9A1EA5E57A00CA727D /* changedevice */,
+				0DBAAC9D1EA5E57A00CA727D /* confirmwarning */,
+				0DBAACA01EA5E57A00CA727D /* deletebookingstart */,
+				0DBAACA31EA5E57A00CA727D /* deletevehicle */,
+				0DBAACA61EA5E57A00CA727D /* getcarinfo */,
+				0DBAACA91EA5E57A00CA727D /* getwarningmessage */,
+				0DBAACAC1EA5E57A00CA727D /* hidetrip */,
+				0DBAACAF1EA5E57A00CA727D /* obddiacrisis */,
+				0DBAACB21EA5E57A00CA727D /* obdset */,
+				0DBAACB51EA5E57A00CA727D /* phonecontroll */,
+				0DBAACB81EA5E57A00CA727D /* querybookingstart */,
+				0DBAACBB1EA5E57A00CA727D /* querybrand */,
+				0DBAACBE1EA5E57A00CA727D /* querycarseries */,
+				0DBAACC11EA5E57A00CA727D /* queryfence */,
+				0DBAACC41EA5E57A00CA727D /* unbindterminal */,
+				0DBAACC71EA5E57A00CA727D /* updatebookingstart */,
+				0DBAACCA1EA5E57A00CA727D /* updatefence */,
+				0DBAACCD1EA5E57A00CA727D /* updateplatenumber */,
+				0DBAACD01EA5E57A00CA727D /* vehiclestatus */,
+				0DBAACD31EA5E57A00CA727D /* verifyimei */,
+			);
+			path = car;
+			sourceTree = "<group>";
+		};
+		0DBAAC911EA5E57A00CA727D /* addbookingstart */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAAC921EA5E57A00CA727D /* FZKBAddBookingStartAction.h */,
+				0DBAAC931EA5E57A00CA727D /* FZKBAddBookingStartAction.m */,
+			);
+			path = addbookingstart;
+			sourceTree = "<group>";
+		};
+		0DBAAC941EA5E57A00CA727D /* addnewcar */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAAC951EA5E57A00CA727D /* FZKBAddNewCarAction.h */,
+				0DBAAC961EA5E57A00CA727D /* FZKBAddNewCarAction.m */,
+			);
+			path = addnewcar;
+			sourceTree = "<group>";
+		};
+		0DBAAC971EA5E57A00CA727D /* bindterminal */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAAC981EA5E57A00CA727D /* FZKBBindTerminalAction.h */,
+				0DBAAC991EA5E57A00CA727D /* FZKBBindTerminalAction.m */,
+			);
+			path = bindterminal;
+			sourceTree = "<group>";
+		};
+		0DBAAC9A1EA5E57A00CA727D /* changedevice */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAAC9B1EA5E57A00CA727D /* FZKBChangeDeviceAction.h */,
+				0DBAAC9C1EA5E57A00CA727D /* FZKBChangeDeviceAction.m */,
+			);
+			path = changedevice;
+			sourceTree = "<group>";
+		};
+		0DBAAC9D1EA5E57A00CA727D /* confirmwarning */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAAC9E1EA5E57A00CA727D /* FZKBConfirmWarningAction.h */,
+				0DBAAC9F1EA5E57A00CA727D /* FZKBConfirmWarningAction.m */,
+			);
+			path = confirmwarning;
+			sourceTree = "<group>";
+		};
+		0DBAACA01EA5E57A00CA727D /* deletebookingstart */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAACA11EA5E57A00CA727D /* FZKBDeleteBookingStartAction.h */,
+				0DBAACA21EA5E57A00CA727D /* FZKBDeleteBookingStartAction.m */,
+			);
+			path = deletebookingstart;
+			sourceTree = "<group>";
+		};
+		0DBAACA31EA5E57A00CA727D /* deletevehicle */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAACA41EA5E57A00CA727D /* FZKBDeleteVehicleAction.h */,
+				0DBAACA51EA5E57A00CA727D /* FZKBDeleteVehicleAction.m */,
+			);
+			path = deletevehicle;
+			sourceTree = "<group>";
+		};
+		0DBAACA61EA5E57A00CA727D /* getcarinfo */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAACA71EA5E57A00CA727D /* FZKBGetCarInfoAction.h */,
+				0DBAACA81EA5E57A00CA727D /* FZKBGetCarInfoAction.m */,
+			);
+			path = getcarinfo;
+			sourceTree = "<group>";
+		};
+		0DBAACA91EA5E57A00CA727D /* getwarningmessage */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAACAA1EA5E57A00CA727D /* FZKBGetWarningMessageAction.h */,
+				0DBAACAB1EA5E57A00CA727D /* FZKBGetWarningMessageAction.m */,
+			);
+			path = getwarningmessage;
+			sourceTree = "<group>";
+		};
+		0DBAACAC1EA5E57A00CA727D /* hidetrip */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAACAD1EA5E57A00CA727D /* FZKBHideTripAction.h */,
+				0DBAACAE1EA5E57A00CA727D /* FZKBHideTripAction.m */,
+			);
+			path = hidetrip;
+			sourceTree = "<group>";
+		};
+		0DBAACAF1EA5E57A00CA727D /* obddiacrisis */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAACB01EA5E57A00CA727D /* FZKBOBDdiacrisisAction.h */,
+				0DBAACB11EA5E57A00CA727D /* FZKBOBDdiacrisisAction.m */,
+			);
+			path = obddiacrisis;
+			sourceTree = "<group>";
+		};
+		0DBAACB21EA5E57A00CA727D /* obdset */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAACB31EA5E57A00CA727D /* FZKBObdSetAction.h */,
+				0DBAACB41EA5E57A00CA727D /* FZKBObdSetAction.m */,
+			);
+			path = obdset;
+			sourceTree = "<group>";
+		};
+		0DBAACB51EA5E57A00CA727D /* phonecontroll */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAACB61EA5E57A00CA727D /* FZKBPhoneControllAction.h */,
+				0DBAACB71EA5E57A00CA727D /* FZKBPhoneControllAction.m */,
+			);
+			path = phonecontroll;
+			sourceTree = "<group>";
+		};
+		0DBAACB81EA5E57A00CA727D /* querybookingstart */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAACB91EA5E57A00CA727D /* FZKBQueryBookingStartAction.h */,
+				0DBAACBA1EA5E57A00CA727D /* FZKBQueryBookingStartAction.m */,
+			);
+			path = querybookingstart;
+			sourceTree = "<group>";
+		};
+		0DBAACBB1EA5E57A00CA727D /* querybrand */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAACBC1EA5E57A00CA727D /* FZKBQueryBrandAction.h */,
+				0DBAACBD1EA5E57A00CA727D /* FZKBQueryBrandAction.m */,
+			);
+			path = querybrand;
+			sourceTree = "<group>";
+		};
+		0DBAACBE1EA5E57A00CA727D /* querycarseries */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAACBF1EA5E57A00CA727D /* FZKBQueryCarSeriesAction.h */,
+				0DBAACC01EA5E57A00CA727D /* FZKBQueryCarSeriesAction.m */,
+			);
+			path = querycarseries;
+			sourceTree = "<group>";
+		};
+		0DBAACC11EA5E57A00CA727D /* queryfence */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAACC21EA5E57A00CA727D /* FZKBQueryFenceAction.h */,
+				0DBAACC31EA5E57A00CA727D /* FZKBQueryFenceAction.m */,
+			);
+			path = queryfence;
+			sourceTree = "<group>";
+		};
+		0DBAACC41EA5E57A00CA727D /* unbindterminal */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAACC51EA5E57A00CA727D /* FZKBUnbindTerminalAction.h */,
+				0DBAACC61EA5E57A00CA727D /* FZKBUnbindTerminalAction.m */,
+			);
+			path = unbindterminal;
+			sourceTree = "<group>";
+		};
+		0DBAACC71EA5E57A00CA727D /* updatebookingstart */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAACC81EA5E57A00CA727D /* FZKBUpdateBookingStartAction.h */,
+				0DBAACC91EA5E57A00CA727D /* FZKBUpdateBookingStartAction.m */,
+			);
+			path = updatebookingstart;
+			sourceTree = "<group>";
+		};
+		0DBAACCA1EA5E57A00CA727D /* updatefence */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAACCB1EA5E57A00CA727D /* FZKBUpdateFenceAction.h */,
+				0DBAACCC1EA5E57A00CA727D /* FZKBUpdateFenceAction.m */,
+			);
+			path = updatefence;
+			sourceTree = "<group>";
+		};
+		0DBAACCD1EA5E57A00CA727D /* updateplatenumber */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAACCE1EA5E57A00CA727D /* FZKBUpdatePlateNumberAction.h */,
+				0DBAACCF1EA5E57A00CA727D /* FZKBUpdatePlateNumberAction.m */,
+			);
+			path = updateplatenumber;
+			sourceTree = "<group>";
+		};
+		0DBAACD01EA5E57A00CA727D /* vehiclestatus */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAACD11EA5E57A00CA727D /* FZKBVehicleStatusAction.h */,
+				0DBAACD21EA5E57A00CA727D /* FZKBVehicleStatusAction.m */,
+			);
+			path = vehiclestatus;
+			sourceTree = "<group>";
+		};
+		0DBAACD31EA5E57A00CA727D /* verifyimei */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAACD41EA5E57A00CA727D /* FZKBVerifyIMEIAction.h */,
+				0DBAACD51EA5E57A00CA727D /* FZKBVerifyIMEIAction.m */,
+			);
+			path = verifyimei;
+			sourceTree = "<group>";
+		};
+		0DBAACD61EA5E57A00CA727D /* pay */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAACD71EA5E57A00CA727D /* payorderwx */,
+				0DBAACDA1EA5E57A00CA727D /* payorderzfb */,
+				0DBAACDD1EA5E57A00CA727D /* queryxufeiservice */,
+			);
+			path = pay;
+			sourceTree = "<group>";
+		};
+		0DBAACD71EA5E57A00CA727D /* payorderwx */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAACD81EA5E57A00CA727D /* FZKBPayOrderWXAction.h */,
+				0DBAACD91EA5E57A00CA727D /* FZKBPayOrderWXAction.m */,
+			);
+			path = payorderwx;
+			sourceTree = "<group>";
+		};
+		0DBAACDA1EA5E57A00CA727D /* payorderzfb */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAACDB1EA5E57A00CA727D /* FZKBPayOrderZFBAction.h */,
+				0DBAACDC1EA5E57A00CA727D /* FZKBPayOrderZFBAction.m */,
+			);
+			path = payorderzfb;
+			sourceTree = "<group>";
+		};
+		0DBAACDD1EA5E57A00CA727D /* queryxufeiservice */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAACDE1EA5E57A00CA727D /* FZKBQueryXuFeiServiceAction.h */,
+				0DBAACDF1EA5E57A00CA727D /* FZKBQueryXuFeiServiceAction.m */,
+			);
+			path = queryxufeiservice;
+			sourceTree = "<group>";
+		};
+		0DBAACE01EA5E57A00CA727D /* user */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAACE11EA5E57A00CA727D /* accountcomplaint */,
+				0DBAACE41EA5E57A00CA727D /* customerregister */,
+				0DBAACE71EA5E57A00CA727D /* getauthcode */,
+				0DBAACEA1EA5E57A00CA727D /* getauthcoderegister */,
+				0DBAACED1EA5E57A00CA727D /* initializedetailswitch */,
+				0DBAACF01EA5E57A00CA727D /* login */,
+				0DBAACF31EA5E57A00CA727D /* loginout */,
+				0DBAACF61EA5E57A00CA727D /* messagesetswitch */,
+				0DBAACF91EA5E57A00CA727D /* phonebinding */,
+				0DBAACFC1EA5E57A00CA727D /* phoneunbind */,
+				0DBAACFF1EA5E57A00CA727D /* queryscore */,
+				0DBAAD021EA5E57A00CA727D /* querywebappversions */,
+				0DBAAD051EA5E57A00CA727D /* registcustomer */,
+				0DBAAD081EA5E57A00CA727D /* srsendmessage */,
+				0DBAAD0B1EA5E57A00CA727D /* srsteward */,
+				0DBAAD0E1EA5E57A00CA727D /* srstewardlist */,
+				0DBAAD111EA5E57A00CA727D /* submitscore */,
+				0DBAAD141EA5E57A00CA727D /* updatepassword */,
+				0DBAAD171EA5E57A00CA727D /* updatesubmission */,
+				0DBAAD1A1EA5E57A00CA727D /* validateimei */,
+				0DBAAD1D1EA5E57A00CA727D /* visitorlogin */,
+			);
+			path = user;
+			sourceTree = "<group>";
+		};
+		0DBAACE11EA5E57A00CA727D /* accountcomplaint */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAACE21EA5E57A00CA727D /* FZKBAccountComplaintAction.h */,
+				0DBAACE31EA5E57A00CA727D /* FZKBAccountComplaintAction.m */,
+			);
+			path = accountcomplaint;
+			sourceTree = "<group>";
+		};
+		0DBAACE41EA5E57A00CA727D /* customerregister */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAACE51EA5E57A00CA727D /* FZKBCustomerRegisterAction.h */,
+				0DBAACE61EA5E57A00CA727D /* FZKBCustomerRegisterAction.m */,
+			);
+			path = customerregister;
+			sourceTree = "<group>";
+		};
+		0DBAACE71EA5E57A00CA727D /* getauthcode */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAACE81EA5E57A00CA727D /* FZKBGetAuthCodeAction.h */,
+				0DBAACE91EA5E57A00CA727D /* FZKBGetAuthCodeAction.m */,
+			);
+			path = getauthcode;
+			sourceTree = "<group>";
+		};
+		0DBAACEA1EA5E57A00CA727D /* getauthcoderegister */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAACEB1EA5E57A00CA727D /* FZKBGetAuthCodeRegisterAction.h */,
+				0DBAACEC1EA5E57A00CA727D /* FZKBGetAuthCodeRegisterAction.m */,
+			);
+			path = getauthcoderegister;
+			sourceTree = "<group>";
+		};
+		0DBAACED1EA5E57A00CA727D /* initializedetailswitch */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAACEE1EA5E57A00CA727D /* FZKBInitializeDetailSwitchAction.h */,
+				0DBAACEF1EA5E57A00CA727D /* FZKBInitializeDetailSwitchAction.m */,
+			);
+			path = initializedetailswitch;
+			sourceTree = "<group>";
+		};
+		0DBAACF01EA5E57A00CA727D /* login */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAACF11EA5E57A00CA727D /* FZKBLoginAction.h */,
+				0DBAACF21EA5E57A00CA727D /* FZKBLoginAction.m */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		0DBAACF31EA5E57A00CA727D /* loginout */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAACF41EA5E57A00CA727D /* FZKBLoginOutAction.h */,
+				0DBAACF51EA5E57A00CA727D /* FZKBLoginOutAction.m */,
+			);
+			path = loginout;
+			sourceTree = "<group>";
+		};
+		0DBAACF61EA5E57A00CA727D /* messagesetswitch */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAACF71EA5E57A00CA727D /* FZKBMessageSetSwitchAction.h */,
+				0DBAACF81EA5E57A00CA727D /* FZKBMessageSetSwitchAction.m */,
+			);
+			path = messagesetswitch;
+			sourceTree = "<group>";
+		};
+		0DBAACF91EA5E57A00CA727D /* phonebinding */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAACFA1EA5E57A00CA727D /* FZKBPhoneBindingAction.h */,
+				0DBAACFB1EA5E57A00CA727D /* FZKBPhoneBindingAction.m */,
+			);
+			path = phonebinding;
+			sourceTree = "<group>";
+		};
+		0DBAACFC1EA5E57A00CA727D /* phoneunbind */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAACFD1EA5E57A00CA727D /* FZKBPhoneUnbindAction.h */,
+				0DBAACFE1EA5E57A00CA727D /* FZKBPhoneUnbindAction.m */,
+			);
+			path = phoneunbind;
+			sourceTree = "<group>";
+		};
+		0DBAACFF1EA5E57A00CA727D /* queryscore */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAAD001EA5E57A00CA727D /* FZKBQueryScoreAction.h */,
+				0DBAAD011EA5E57A00CA727D /* FZKBQueryScoreAction.m */,
+			);
+			path = queryscore;
+			sourceTree = "<group>";
+		};
+		0DBAAD021EA5E57A00CA727D /* querywebappversions */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAAD031EA5E57A00CA727D /* FZKBQueryWebAppVersionsAction.h */,
+				0DBAAD041EA5E57A00CA727D /* FZKBQueryWebAppVersionsAction.m */,
+			);
+			path = querywebappversions;
+			sourceTree = "<group>";
+		};
+		0DBAAD051EA5E57A00CA727D /* registcustomer */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAAD061EA5E57A00CA727D /* FZKBRegistCustomerAction.h */,
+				0DBAAD071EA5E57A00CA727D /* FZKBRegistCustomerAction.m */,
+			);
+			path = registcustomer;
+			sourceTree = "<group>";
+		};
+		0DBAAD081EA5E57A00CA727D /* srsendmessage */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAAD091EA5E57A00CA727D /* FZKBSRSendMessageAction.h */,
+				0DBAAD0A1EA5E57A00CA727D /* FZKBSRSendMessageAction.m */,
+			);
+			path = srsendmessage;
+			sourceTree = "<group>";
+		};
+		0DBAAD0B1EA5E57A00CA727D /* srsteward */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAAD0C1EA5E57A00CA727D /* FZKBSRstewardAction.h */,
+				0DBAAD0D1EA5E57A00CA727D /* FZKBSRstewardAction.m */,
+			);
+			path = srsteward;
+			sourceTree = "<group>";
+		};
+		0DBAAD0E1EA5E57A00CA727D /* srstewardlist */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAAD0F1EA5E57A00CA727D /* FZKBSRstewardListAction.h */,
+				0DBAAD101EA5E57A00CA727D /* FZKBSRstewardListAction.m */,
+			);
+			path = srstewardlist;
+			sourceTree = "<group>";
+		};
+		0DBAAD111EA5E57A00CA727D /* submitscore */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAAD121EA5E57A00CA727D /* FZKBSubmitScoreAction.h */,
+				0DBAAD131EA5E57A00CA727D /* FZKBSubmitScoreAction.m */,
+			);
+			path = submitscore;
+			sourceTree = "<group>";
+		};
+		0DBAAD141EA5E57A00CA727D /* updatepassword */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAAD151EA5E57A00CA727D /* FZKBUpdatePassWordAction.h */,
+				0DBAAD161EA5E57A00CA727D /* FZKBUpdatePassWordAction.m */,
+			);
+			path = updatepassword;
+			sourceTree = "<group>";
+		};
+		0DBAAD171EA5E57A00CA727D /* updatesubmission */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAAD181EA5E57A00CA727D /* FZKBUpdateSubmissionAction.h */,
+				0DBAAD191EA5E57A00CA727D /* FZKBUpdateSubmissionAction.m */,
+			);
+			path = updatesubmission;
+			sourceTree = "<group>";
+		};
+		0DBAAD1A1EA5E57A00CA727D /* validateimei */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAAD1B1EA5E57A00CA727D /* FZKBValidateImeiAction.h */,
+				0DBAAD1C1EA5E57A00CA727D /* FZKBValidateImeiAction.m */,
+			);
+			path = validateimei;
+			sourceTree = "<group>";
+		};
+		0DBAAD1D1EA5E57A00CA727D /* visitorlogin */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAAD1E1EA5E57A00CA727D /* FZKBVisitorLoginAction.h */,
+				0DBAAD1F1EA5E57A00CA727D /* FZKBVisitorLoginAction.m */,
+			);
+			path = visitorlogin;
+			sourceTree = "<group>";
+		};
+		0DE8DAB11E9F13370064733A = {
+			isa = PBXGroup;
+			children = (
+				0DE8DABD1E9F13370064733A /* Business */,
+				0DEFE53E1EC5A947001B518B /* BusinessTests */,
+				0DE8DABC1E9F13370064733A /* Products */,
+				6692381A16C8B5D12546AC78 /* Pods */,
+				ADE57B6E6628003EC6AF5271 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0DE8DABC1E9F13370064733A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DE8DABB1E9F13370064733A /* Business.framework */,
+				0DEFE53D1EC5A947001B518B /* BusinessTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DE8DABD1E9F13370064733A /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				E82C37071E9F2D4100FA5DC9 /* 业务 */,
+				0D3FA0CE1E9F151E00E30311 /* Connector.framework */,
+				0DE8DABE1E9F13370064733A /* Business.h */,
+				0DE8DABF1E9F13370064733A /* Info.plist */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		0DEFE53E1EC5A947001B518B /* BusinessTests */ = {
+			isa = PBXGroup;
+			children = (
+				0DEFE53F1EC5A947001B518B /* BusinessTests.m */,
+				0DEFE5411EC5A947001B518B /* Info.plist */,
+			);
+			path = BusinessTests;
+			sourceTree = "<group>";
+		};
+		6692381A16C8B5D12546AC78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DDD4289D5A719549F999EAA /* Pods-Business.debug.xcconfig */,
+				B6CF8241F871544640BC8014 /* Pods-Business.release.xcconfig */,
+				B6B76E1091089F55540A2B04 /* Pods-BusinessTests.debug.xcconfig */,
+				364974B0D36C8012EE3526AC /* Pods-BusinessTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ADE57B6E6628003EC6AF5271 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC53AD3D4414468879B14A81 /* libPods-Business.a */,
+				FBF63069E5A6FBE48E5F0CFB /* libPods-BusinessTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E82C37071E9F2D4100FA5DC9 /* 业务 */ = {
+			isa = PBXGroup;
+			children = (
+				0DBAAC901EA5E57A00CA727D /* car */,
+				0DBAACD61EA5E57A00CA727D /* pay */,
+				0DBAACE01EA5E57A00CA727D /* user */,
+				0DBAAC881EA5D7F200CA727D /* 工具 */,
+			);
+			path = "业务";
+			sourceTree = "<group>";
+		};
+		E85ED0F31EBB2FFB005641CD /* queryTripGpsPoint */ = {
+			isa = PBXGroup;
+			children = (
+				E85ED0F41EBB3013005641CD /* FZKBQueryTripGpsPointsAction.h */,
+				E85ED0F51EBB3013005641CD /* FZKBQueryTripGpsPointsAction.m */,
+			);
+			path = queryTripGpsPoint;
+			sourceTree = "<group>";
+		};
+		E86CC6B91EBB0F5400004920 /* querytriplist */ = {
+			isa = PBXGroup;
+			children = (
+				E86CC6BA1EBB0F5400004920 /* FZKBQueryTripListAction.h */,
+				E86CC6BB1EBB0F5400004920 /* FZKBQueryTripListAction.m */,
+			);
+			path = querytriplist;
+			sourceTree = "<group>";
+		};
+		E89462741EA70E6800952F0A /* carToAdd */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = carToAdd;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0DE8DAB81E9F13370064733A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DBAAD481EA5E57A00CA727D /* FZKBUpdatePlateNumberAction.h in Headers */,
+				0DBAAD721EA5E57A00CA727D /* FZKBSRstewardListAction.h in Headers */,
+				0DBAAD701EA5E57A00CA727D /* FZKBSRstewardAction.h in Headers */,
+				0DBAAD2A1EA5E57A00CA727D /* FZKBDeleteBookingStartAction.h in Headers */,
+				0DBAAD541EA5E57A00CA727D /* FZKBAccountComplaintAction.h in Headers */,
+				0DBAAD781EA5E57A00CA727D /* FZKBUpdateSubmissionAction.h in Headers */,
+				0DBAAD421EA5E57A00CA727D /* FZKBUnbindTerminalAction.h in Headers */,
+				0DBAAD401EA5E57A00CA727D /* FZKBQueryFenceAction.h in Headers */,
+				0DBAAD221EA5E57A00CA727D /* FZKBAddNewCarAction.h in Headers */,
+				0DBAAD261EA5E57A00CA727D /* FZKBChangeDeviceAction.h in Headers */,
+				0DBAAD5C1EA5E57A00CA727D /* FZKBInitializeDetailSwitchAction.h in Headers */,
+				0DBAAD601EA5E57A00CA727D /* FZKBLoginOutAction.h in Headers */,
+				0DBAAD5E1EA5E57A00CA727D /* FZKBLoginAction.h in Headers */,
+				0DBAAD6E1EA5E57A00CA727D /* FZKBSRSendMessageAction.h in Headers */,
+				0DBAAD241EA5E57A00CA727D /* FZKBBindTerminalAction.h in Headers */,
+				0DBAAD501EA5E57A00CA727D /* FZKBPayOrderZFBAction.h in Headers */,
+				0DBAAD3A1EA5E57A00CA727D /* FZKBQueryBookingStartAction.h in Headers */,
+				E85ED0F61EBB3013005641CD /* FZKBQueryTripGpsPointsAction.h in Headers */,
+				0DBAAD621EA5E57A00CA727D /* FZKBMessageSetSwitchAction.h in Headers */,
+				0DBAAD341EA5E57A00CA727D /* FZKBOBDdiacrisisAction.h in Headers */,
+				0DBAAD4A1EA5E57A00CA727D /* FZKBVehicleStatusAction.h in Headers */,
+				0DBAAD741EA5E57A00CA727D /* FZKBSubmitScoreAction.h in Headers */,
+				0DBAAD361EA5E57A00CA727D /* FZKBObdSetAction.h in Headers */,
+				0DBAAD5A1EA5E57A00CA727D /* FZKBGetAuthCodeRegisterAction.h in Headers */,
+				E86CC6BC1EBB0F5400004920 /* FZKBQueryTripListAction.h in Headers */,
+				0DBAAD281EA5E57A00CA727D /* FZKBConfirmWarningAction.h in Headers */,
+				0D89B1821EA8BAC00033C3BE /* FZKBTools.h in Headers */,
+				0DBAAD581EA5E57A00CA727D /* FZKBGetAuthCodeAction.h in Headers */,
+				0DBAAD6C1EA5E57A00CA727D /* FZKBRegistCustomerAction.h in Headers */,
+				0DBAAD6A1EA5E57A00CA727D /* FZKBQueryWebAppVersionsAction.h in Headers */,
+				0DBAAD201EA5E57A00CA727D /* FZKBAddBookingStartAction.h in Headers */,
+				0DBAAD2C1EA5E57A00CA727D /* FZKBDeleteVehicleAction.h in Headers */,
+				0DBAAD641EA5E57A00CA727D /* FZKBPhoneBindingAction.h in Headers */,
+				0DBAAD7A1EA5E57A00CA727D /* FZKBValidateImeiAction.h in Headers */,
+				0DBAAD521EA5E57A00CA727D /* FZKBQueryXuFeiServiceAction.h in Headers */,
+				0DBAAD4E1EA5E57A00CA727D /* FZKBPayOrderWXAction.h in Headers */,
+				0DBAAD681EA5E57A00CA727D /* FZKBQueryScoreAction.h in Headers */,
+				0DBAAD7C1EA5E57A00CA727D /* FZKBVisitorLoginAction.h in Headers */,
+				0DBAAD321EA5E57A00CA727D /* FZKBHideTripAction.h in Headers */,
+				0D89B1891EA8BB710033C3BE /* KeyChainStore.h in Headers */,
+				0DBAAD2E1EA5E57A00CA727D /* FZKBGetCarInfoAction.h in Headers */,
+				0DBAAD461EA5E57A00CA727D /* FZKBUpdateFenceAction.h in Headers */,
+				0DBAAD661EA5E57A00CA727D /* FZKBPhoneUnbindAction.h in Headers */,
+				0DBAAD441EA5E57A00CA727D /* FZKBUpdateBookingStartAction.h in Headers */,
+				0DBAAC8B1EA5D7F200CA727D /* SRInterceptorUtil.h in Headers */,
+				0DBAAD761EA5E57A00CA727D /* FZKBUpdatePassWordAction.h in Headers */,
+				0DBAAD3C1EA5E57A00CA727D /* FZKBQueryBrandAction.h in Headers */,
+				0D89B18B1EA8BB710033C3BE /* UUID.h in Headers */,
+				0DBAAD3E1EA5E57A00CA727D /* FZKBQueryCarSeriesAction.h in Headers */,
+				0DBAAD381EA5E57A00CA727D /* FZKBPhoneControllAction.h in Headers */,
+				0DBAAD301EA5E57A00CA727D /* FZKBGetWarningMessageAction.h in Headers */,
+				0DE8DAC01E9F13370064733A /* Business.h in Headers */,
+				0DBAAD4C1EA5E57A00CA727D /* FZKBVerifyIMEIAction.h in Headers */,
+				0DBAAD561EA5E57A00CA727D /* FZKBCustomerRegisterAction.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0DE8DABA1E9F13370064733A /* Business */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DE8DAC31E9F13370064733A /* Build configuration list for PBXNativeTarget "Business" */;
+			buildPhases = (
+				E409363A662F8E998B2AB91A /* [CP] Check Pods Manifest.lock */,
+				0DE8DAB61E9F13370064733A /* Sources */,
+				0DE8DAB71E9F13370064733A /* Frameworks */,
+				0DE8DAB81E9F13370064733A /* Headers */,
+				0DE8DAB91E9F13370064733A /* Resources */,
+				5F84D39195A3379B46F0ACB3 /* [CP] Copy Pods Resources */,
+				0D3FA0D01E9F15A700E30311 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Business;
+			productName = Business;
+			productReference = 0DE8DABB1E9F13370064733A /* Business.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0DEFE53C1EC5A947001B518B /* BusinessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DEFE5471EC5A947001B518B /* Build configuration list for PBXNativeTarget "BusinessTests" */;
+			buildPhases = (
+				43D2C5CE46C64DB335A02CCB /* [CP] Check Pods Manifest.lock */,
+				0DEFE5391EC5A947001B518B /* Sources */,
+				0DEFE53A1EC5A947001B518B /* Frameworks */,
+				0DEFE53B1EC5A947001B518B /* Resources */,
+				90D940A687D158B6D824F69D /* [CP] Embed Pods Frameworks */,
+				20D4D88B158A52B7EB651F12 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DEFE5441EC5A947001B518B /* PBXTargetDependency */,
+			);
+			name = BusinessTests;
+			productName = BusinessTests;
+			productReference = 0DEFE53D1EC5A947001B518B /* BusinessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DE8DAB21E9F13370064733A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FZKB;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = chinapke;
+				TargetAttributes = {
+					0DE8DABA1E9F13370064733A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = B3LET74VX6;
+						ProvisioningStyle = Automatic;
+					};
+					0DEFE53C1EC5A947001B518B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = B3LET74VX6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0DE8DAB51E9F13370064733A /* Build configuration list for PBXProject "Business" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0DE8DAB11E9F13370064733A;
+			productRefGroup = 0DE8DABC1E9F13370064733A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DE8DABA1E9F13370064733A /* Business */,
+				0DEFE53C1EC5A947001B518B /* BusinessTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DE8DAB91E9F13370064733A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DEFE53B1EC5A947001B518B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D3FA0D01E9F15A700E30311 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"${ACTION}\" = \"build\" ]\nthen\nINSTALL_DIR=${SRCROOT}/../../例子/Example/Example/${PROJECT_NAME}.framework\n\nINSTALL_DIR_SR=${SRCROOT}/../../APP/SiRui/SiRui/${PROJECT_NAME}.framework\n\nDEVICE_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\n\nSIMULATOR_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework\n\n\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\n\nmkdir -p \"${INSTALL_DIR}\"\n\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}\"\n\n\n#ditto \"${DEVICE_DIR}/Headers\" \"${INSTALL_DIR}/Headers\"\n\nlipo -create \"${DEVICE_DIR}/${PROJECT_NAME}\" \"${SIMULATOR_DIR}/${PROJECT_NAME}\" -output \"${INSTALL_DIR}/${PROJECT_NAME}\"\n#lipo -create \"${DEVICE_DIR}/${PROJECT_NAME}\" \"${SIMULATOR_DIR}/${PROJECT_NAME}\" -output \"${SRCROOT}/../${PROJECT_NAME}\"\n\nrm -rf \"${INSTALL_DIR}/Modules\"\n\n#open \"${DEVICE_DIR}\"\n#open \"${SRCROOT}/Products\"\n#open \"${INSTALL_DIR}\"\n\nif [ -d \"${INSTALL_DIR_SR}\" ]\nthen\nrm -rf \"${INSTALL_DIR_SR}\"\nfi\n\nmkdir -p \"${INSTALL_DIR_SR}\"\n\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR_SR}\"\n\n\n#ditto \"${DEVICE_DIR}/Headers\" \"${INSTALL_DIR}/Headers\"\n\nlipo -create \"${DEVICE_DIR}/${PROJECT_NAME}\" \"${SIMULATOR_DIR}/${PROJECT_NAME}\" -output \"${INSTALL_DIR_SR}/${PROJECT_NAME}\"\n#lipo -create \"${DEVICE_DIR}/${PROJECT_NAME}\" \"${SIMULATOR_DIR}/${PROJECT_NAME}\" -output \"${SRCROOT}/../${PROJECT_NAME}\"\n\nrm -rf \"${INSTALL_DIR_SR}/Modules\"\n\nfi";
+			showEnvVarsInLog = 0;
+		};
+		20D4D88B158A52B7EB651F12 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../../Pods/Target Support Files/Pods-BusinessTests/Pods-BusinessTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43D2C5CE46C64DB335A02CCB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5F84D39195A3379B46F0ACB3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../../Pods/Target Support Files/Pods-Business/Pods-Business-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90D940A687D158B6D824F69D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../../Pods/Target Support Files/Pods-BusinessTests/Pods-BusinessTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E409363A662F8E998B2AB91A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DE8DAB61E9F13370064733A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D89B18C1EA8BB710033C3BE /* UUID.m in Sources */,
+				0DBAAD2D1EA5E57A00CA727D /* FZKBDeleteVehicleAction.m in Sources */,
+				0D89B18A1EA8BB710033C3BE /* KeyChainStore.m in Sources */,
+				0DBAAD531EA5E57A00CA727D /* FZKBQueryXuFeiServiceAction.m in Sources */,
+				0DBAAD651EA5E57A00CA727D /* FZKBPhoneBindingAction.m in Sources */,
+				0DBAAD351EA5E57A00CA727D /* FZKBOBDdiacrisisAction.m in Sources */,
+				0DBAAD7D1EA5E57A00CA727D /* FZKBVisitorLoginAction.m in Sources */,
+				0DBAAD631EA5E57A00CA727D /* FZKBMessageSetSwitchAction.m in Sources */,
+				0DBAAD431EA5E57A00CA727D /* FZKBUnbindTerminalAction.m in Sources */,
+				0DBAAD271EA5E57A00CA727D /* FZKBChangeDeviceAction.m in Sources */,
+				0D89B1831EA8BAC00033C3BE /* FZKBTools.m in Sources */,
+				0DBAAC8C1EA5D7F200CA727D /* SRInterceptorUtil.m in Sources */,
+				E86CC6BD1EBB0F5400004920 /* FZKBQueryTripListAction.m in Sources */,
+				0DBAAD611EA5E57A00CA727D /* FZKBLoginOutAction.m in Sources */,
+				0DBAAD791EA5E57A00CA727D /* FZKBUpdateSubmissionAction.m in Sources */,
+				0DBAAD7B1EA5E57A00CA727D /* FZKBValidateImeiAction.m in Sources */,
+				0DBAAD391EA5E57A00CA727D /* FZKBPhoneControllAction.m in Sources */,
+				0DBAAD3D1EA5E57A00CA727D /* FZKBQueryBrandAction.m in Sources */,
+				0DBAAD6B1EA5E57A00CA727D /* FZKBQueryWebAppVersionsAction.m in Sources */,
+				0DBAAD691EA5E57A00CA727D /* FZKBQueryScoreAction.m in Sources */,
+				0DBAAD6D1EA5E57A00CA727D /* FZKBRegistCustomerAction.m in Sources */,
+				0DBAAD591EA5E57A00CA727D /* FZKBGetAuthCodeAction.m in Sources */,
+				0DBAAD551EA5E57A00CA727D /* FZKBAccountComplaintAction.m in Sources */,
+				0DBAAD451EA5E57A00CA727D /* FZKBUpdateBookingStartAction.m in Sources */,
+				0DBAAD751EA5E57A00CA727D /* FZKBSubmitScoreAction.m in Sources */,
+				0DBAAD3F1EA5E57A00CA727D /* FZKBQueryCarSeriesAction.m in Sources */,
+				0DBAAD6F1EA5E57A00CA727D /* FZKBSRSendMessageAction.m in Sources */,
+				0DBAAD511EA5E57A00CA727D /* FZKBPayOrderZFBAction.m in Sources */,
+				0DBAAD371EA5E57A00CA727D /* FZKBObdSetAction.m in Sources */,
+				0DBAAD4B1EA5E57A00CA727D /* FZKBVehicleStatusAction.m in Sources */,
+				0DBAAD5F1EA5E57A00CA727D /* FZKBLoginAction.m in Sources */,
+				0DBAAD291EA5E57A00CA727D /* FZKBConfirmWarningAction.m in Sources */,
+				0DBAAD571EA5E57A00CA727D /* FZKBCustomerRegisterAction.m in Sources */,
+				0DBAAD471EA5E57A00CA727D /* FZKBUpdateFenceAction.m in Sources */,
+				0DBAAD731EA5E57A00CA727D /* FZKBSRstewardListAction.m in Sources */,
+				0DBAAD4D1EA5E57A00CA727D /* FZKBVerifyIMEIAction.m in Sources */,
+				0DBAAD4F1EA5E57A00CA727D /* FZKBPayOrderWXAction.m in Sources */,
+				0DBAAD331EA5E57A00CA727D /* FZKBHideTripAction.m in Sources */,
+				0DBAAD771EA5E57A00CA727D /* FZKBUpdatePassWordAction.m in Sources */,
+				0DBAAD251EA5E57A00CA727D /* FZKBBindTerminalAction.m in Sources */,
+				0DBAAD3B1EA5E57A00CA727D /* FZKBQueryBookingStartAction.m in Sources */,
+				0DBAAD5B1EA5E57A00CA727D /* FZKBGetAuthCodeRegisterAction.m in Sources */,
+				0DBAAD5D1EA5E57A00CA727D /* FZKBInitializeDetailSwitchAction.m in Sources */,
+				0DBAAD491EA5E57A00CA727D /* FZKBUpdatePlateNumberAction.m in Sources */,
+				0DBAAD411EA5E57A00CA727D /* FZKBQueryFenceAction.m in Sources */,
+				0DBAAD711EA5E57A00CA727D /* FZKBSRstewardAction.m in Sources */,
+				0DBAAD671EA5E57A00CA727D /* FZKBPhoneUnbindAction.m in Sources */,
+				0DBAAD311EA5E57A00CA727D /* FZKBGetWarningMessageAction.m in Sources */,
+				E85ED0F71EBB3013005641CD /* FZKBQueryTripGpsPointsAction.m in Sources */,
+				0DBAAD211EA5E57A00CA727D /* FZKBAddBookingStartAction.m in Sources */,
+				0DBAAD2B1EA5E57A00CA727D /* FZKBDeleteBookingStartAction.m in Sources */,
+				0DBAAD231EA5E57A00CA727D /* FZKBAddNewCarAction.m in Sources */,
+				0DBAAD2F1EA5E57A00CA727D /* FZKBGetCarInfoAction.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DEFE5391EC5A947001B518B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DEFE5401EC5A947001B518B /* BusinessTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DEFE5441EC5A947001B518B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DE8DABA1E9F13370064733A /* Business */;
+			targetProxy = 0DEFE5431EC5A947001B518B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DE8DAC11E9F13370064733A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0DE8DAC21E9F13370064733A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0DE8DAC41E9F13370064733A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DDD4289D5A719549F999EAA /* Pods-Business.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = B3LET74VX6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Business",
+				);
+				INFOPLIST_FILE = Business/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinapke.Business;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0DE8DAC51E9F13370064733A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6CF8241F871544640BC8014 /* Pods-Business.release.xcconfig */;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = B3LET74VX6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Business",
+				);
+				INFOPLIST_FILE = Business/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinapke.Business;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0DEFE5451EC5A947001B518B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6B76E1091089F55540A2B04 /* Pods-BusinessTests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = B3LET74VX6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Business",
+				);
+				INFOPLIST_FILE = BusinessTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinapke.BusinessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0DEFE5461EC5A947001B518B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 364974B0D36C8012EE3526AC /* Pods-BusinessTests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = B3LET74VX6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Business",
+				);
+				INFOPLIST_FILE = BusinessTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinapke.BusinessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DE8DAB51E9F13370064733A /* Build configuration list for PBXProject "Business" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DE8DAC11E9F13370064733A /* Debug */,
+				0DE8DAC21E9F13370064733A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DE8DAC31E9F13370064733A /* Build configuration list for PBXNativeTarget "Business" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DE8DAC41E9F13370064733A /* Debug */,
+				0DE8DAC51E9F13370064733A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DEFE5471EC5A947001B518B /* Build configuration list for PBXNativeTarget "BusinessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DEFE5451EC5A947001B518B /* Debug */,
+				0DEFE5461EC5A947001B518B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DE8DAB21E9F13370064733A /* Project object */;
+}

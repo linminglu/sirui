@@ -1,0 +1,25 @@
+//
+//  PrefixHeaderTests.pch
+//  Connector
+//
+//  Created by czl on 2017/5/12.
+//  Copyright © 2017年 chinapke. All rights reserved.
+//
+
+#ifndef PrefixHeaderTests_pch
+#define PrefixHeaderTests_pch
+
+
+//waitForExpectationsWithTimeout是等待时间，超过了就不再等待往下执行。
+#define WAIT do {\
+[self expectationForNotification:@"RSBaseTest" object:nil handler:nil];\
+[self waitForExpectationsWithTimeout:30 handler:nil];\
+} while (0);
+
+#define NOTIFY \
+[[NSNotificationCenter defaultCenter]postNotificationName:@"RSBaseTest" object:nil];
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeaderTests_pch */

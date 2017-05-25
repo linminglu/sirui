@@ -1,0 +1,1211 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D325E491ECEBD6E00CED9F8 /* bleloading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0D325E481ECEBD6E00CED9F8 /* bleloading.gif */; };
+		0D3359621EA9B59C00B6674E /* SRCarStatueData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3359611EA9B59C00B6674E /* SRCarStatueData.m */; };
+		0D449F081EBD953200866A8C /* Commons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0D449F071EBD953200866A8C /* Commons.bundle */; };
+		0D47E2D31EAD80BC00F388AA /* SRCarScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D47E2D21EAD80BC00F388AA /* SRCarScrollViewController.m */; };
+		0D47E2D61EAD80D600F388AA /* SRCarInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D47E2D51EAD80D600F388AA /* SRCarInfoViewController.m */; };
+		0D47E2D91EADF11300F388AA /* loadGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0D47E2D81EADF11300F388AA /* loadGif.gif */; };
+		0D47E2DD1EADFCE200F388AA /* SRCarWindowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D47E2DC1EADFCE200F388AA /* SRCarWindowView.m */; };
+		0D7421701EBB22CE005A32AB /* SRCarStateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D74216F1EBB22CE005A32AB /* SRCarStateViewController.m */; };
+		0D7987221EBC7A1F00807304 /* SRSliderMenuCustomerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7987211EBC7A1F00807304 /* SRSliderMenuCustomerViewController.m */; };
+		0D7AC2551EBC0F25008F0BF5 /* SRSlideMenuMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7AC2541EBC0F25008F0BF5 /* SRSlideMenuMainViewController.m */; };
+		0D7AC2591EBC12D6008F0BF5 /* SRRounteUntils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7AC2581EBC12D6008F0BF5 /* SRRounteUntils.m */; };
+		0D7AC2661EBC24C2008F0BF5 /* SRCustomerScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7AC2651EBC24C2008F0BF5 /* SRCustomerScrollView.m */; };
+		0D7AC26A1EBC3F75008F0BF5 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DBECD731EA86FEE001EE73F /* Login.storyboard */; };
+		0D89B1721EA888C90033C3BE /* CarStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D89B1711EA888C90033C3BE /* CarStoryboard.storyboard */; };
+		0D89B1911EA8C4770033C3BE /* SRCarAblityButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D89B1901EA8C4770033C3BE /* SRCarAblityButton.m */; };
+		0DBECD951EA86FEE001EE73F /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DBECD4B1EA86FEE001EE73F /* AlipaySDK.framework */; };
+		0DBECD961EA86FEE001EE73F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DBECD4C1EA86FEE001EE73F /* Assets.xcassets */; };
+		0DBECD981EA86FEE001EE73F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DBECD4F1EA86FEE001EE73F /* Main.storyboard */; };
+		0DBECD9A1EA86FEE001EE73F /* UITextField+SRUntils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBECD551EA86FEE001EE73F /* UITextField+SRUntils.m */; };
+		0DBECD9B1EA86FEE001EE73F /* SRTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBECD5C1EA86FEE001EE73F /* SRTableViewController.m */; };
+		0DBECD9D1EA86FEE001EE73F /* SRCarContolMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBECD621EA86FEE001EE73F /* SRCarContolMainViewController.m */; };
+		0DBECDA11EA86FEE001EE73F /* AddEquipment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DBECD6B1EA86FEE001EE73F /* AddEquipment.storyboard */; };
+		0DBECDA21EA86FEE001EE73F /* SRAddEquipmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBECD6D1EA86FEE001EE73F /* SRAddEquipmentViewController.m */; };
+		0DBECDA31EA86FEE001EE73F /* SRIMEIScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBECD701EA86FEE001EE73F /* SRIMEIScanViewController.m */; };
+		0DBECDA51EA86FEE001EE73F /* Login.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DBECD741EA86FEE001EE73F /* Login.xcassets */; };
+		0DBECDA61EA86FEE001EE73F /* SRLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBECD761EA86FEE001EE73F /* SRLoginViewController.m */; };
+		0DBECDA71EA86FEE001EE73F /* SRRegisterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBECD781EA86FEE001EE73F /* SRRegisterTableViewController.m */; };
+		0DBECDA81EA86FEE001EE73F /* SRUserAgreementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBECD7A1EA86FEE001EE73F /* SRUserAgreementViewController.m */; };
+		0DBECDA91EA86FEE001EE73F /* BrandVehicle.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DBECD7C1EA86FEE001EE73F /* BrandVehicle.storyboard */; };
+		0DBECDAB1EA86FEE001EE73F /* SRBrandVehicleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBECD7F1EA86FEE001EE73F /* SRBrandVehicleViewController.m */; };
+		0DBECDAC1EA86FEE001EE73F /* SRPublicMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBECD831EA86FEE001EE73F /* SRPublicMethod.m */; };
+		0DBECDAD1EA86FEE001EE73F /* Commons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DBECD851EA86FEE001EE73F /* Commons.framework */; };
+		0DBECDAF1EA86FEE001EE73F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DBECD871EA86FEE001EE73F /* Info.plist */; };
+		0DBECDB01EA86FEE001EE73F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBECD881EA86FEE001EE73F /* main.m */; };
+		0DBECDB11EA86FEE001EE73F /* engine_open.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0DBECD8C1EA86FEE001EE73F /* engine_open.wav */; };
+		0DBECDB21EA86FEE001EE73F /* CodeScan.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0DBECD8E1EA86FEE001EE73F /* CodeScan.bundle */; };
+		0DBECDB31EA86FEE001EE73F /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DBECD8F1EA86FEE001EE73F /* test.jpg */; };
+		0DBECDB41EA86FEE001EE73F /* SRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBECD921EA86FEE001EE73F /* SRAppDelegate.m */; };
+		0DBECDB51EA86FEE001EE73F /* SRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DBECD941EA86FEE001EE73F /* SRViewController.m */; };
+		0DEFE4F01EC59824001B518B /* Business.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DBECD511EA86FEE001EE73F /* Business.framework */; };
+		0DEFE4F31EC59925001B518B /* Connector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D70EC0D1EC587A70092C1F8 /* Connector.framework */; };
+		0DEFE5091EC5A1F1001B518B /* SiRuiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DEFE5081EC5A1F1001B518B /* SiRuiTests.m */; };
+		0DEFE5101EC5A295001B518B /* Connector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D70EC0D1EC587A70092C1F8 /* Connector.framework */; };
+		0DEFE5111EC5A295001B518B /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DBECD4B1EA86FEE001EE73F /* AlipaySDK.framework */; };
+		0DEFE5121EC5A295001B518B /* Business.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DBECD511EA86FEE001EE73F /* Business.framework */; };
+		0DEFE5131EC5A295001B518B /* Commons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DBECD851EA86FEE001EE73F /* Commons.framework */; };
+		1A70895F2EA2A4E13A550815 /* libPods-SiRuiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1768B4588237AE3800E2556 /* libPods-SiRuiTests.a */; };
+		C6B0B96DD61D95C1D1BB0FAD /* libPods-SiRui.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC185EECB793C76CB627D4E3 /* libPods-SiRui.a */; };
+		E86CC6A21EBAB88000004920 /* SRHistoricalTrackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E86CC6A11EBAB88000004920 /* SRHistoricalTrackViewController.m */; };
+		E86CC6A31EBAC31B00004920 /* SRMap.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E86CC6A51EBAC31B00004920 /* SRMap.storyboard */; };
+		E86CC6AD1EBAF73600004920 /* SRHistoricalTrackTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E86CC6AB1EBAF73600004920 /* SRHistoricalTrackTableViewCell.m */; };
+		E86CC6AE1EBAF73600004920 /* SRHistoricalTrackTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E86CC6AC1EBAF73600004920 /* SRHistoricalTrackTableViewCell.xib */; };
+		E86CC6B31EBB080500004920 /* SRHistoricalTrackTableSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = E86CC6B21EBB080500004920 /* SRHistoricalTrackTableSectionHeader.xib */; };
+		E86FEEB81EBC467A0020AA25 /* SRTrajectoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E86FEEB61EBC467A0020AA25 /* SRTrajectoryTableViewCell.m */; };
+		E86FEEB91EBC467A0020AA25 /* SRTrajectoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E86FEEB71EBC467A0020AA25 /* SRTrajectoryTableViewCell.xib */; };
+		E883517C1EB30FB700E38625 /* SRMainMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E883517B1EB30FB700E38625 /* SRMainMapViewController.m */; };
+		E8E300AB1EA8A7C500A94399 /* SRIntroductionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E300AA1EA8A7C500A94399 /* SRIntroductionViewController.m */; };
+		E8E300AE1EA8A89F00A94399 /* ZWImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8E300AD1EA8A89F00A94399 /* ZWImages.xcassets */; };
+		E8E300F81EA9D81300A94399 /* SRAppDelegate+XHLaunchAd.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E300F71EA9D81300A94399 /* SRAppDelegate+XHLaunchAd.m */; };
+		E8E301271EA9D8D600A94399 /* LaunchImageAd.json in Resources */ = {isa = PBXBuildFile; fileRef = E8E301141EA9D8D600A94399 /* LaunchImageAd.json */; };
+		E8E301281EA9D8D600A94399 /* LaunchVideoAd.json in Resources */ = {isa = PBXBuildFile; fileRef = E8E301151EA9D8D600A94399 /* LaunchVideoAd.json */; };
+		E8E301311EA9DB6700A94399 /* LaunchAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8E301301EA9DB6700A94399 /* LaunchAssets.xcassets */; };
+		E8E301381EA9DE0500A94399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8E301361EA9DE0500A94399 /* LaunchScreen.storyboard */; };
+		E8E3013F1EA9E9DC00A94399 /* SRUrlSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E3013E1EA9E9DC00A94399 /* SRUrlSettingTableViewController.m */; };
+		E8E301421EA9EBCC00A94399 /* SRURLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E301411EA9EBCC00A94399 /* SRURLManager.m */; };
+		E8E301931EADC96B00A94399 /* SRTrajectoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E301921EADC96B00A94399 /* SRTrajectoryViewController.m */; };
+		E8E301951EADCCD500A94399 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8E301941EADCCD500A94399 /* CoreLocation.framework */; };
+		E8E301971EADCCDE00A94399 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8E301961EADCCDE00A94399 /* QuartzCore.framework */; };
+		E8E301991EADCCE600A94399 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8E301981EADCCE600A94399 /* OpenGLES.framework */; };
+		E8E3019B1EADCCEF00A94399 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8E3019A1EADCCEF00A94399 /* SystemConfiguration.framework */; };
+		E8E3019D1EADCCF900A94399 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8E3019C1EADCCF900A94399 /* CoreGraphics.framework */; };
+		E8E3019F1EADCD0700A94399 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8E3019E1EADCD0700A94399 /* Security.framework */; };
+		E8E301A11EADCD1100A94399 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E8E301A01EADCD1100A94399 /* libsqlite3.0.tbd */; };
+		E8E301A31EADCD2100A94399 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8E301A21EADCD2100A94399 /* CoreTelephony.framework */; };
+		E8E301A51EADCD2F00A94399 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E8E301A41EADCD2F00A94399 /* libstdc++.6.0.9.tbd */; };
+		E8E301A81EADCDCE00A94399 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8E301A61EADCDCE00A94399 /* libssl.a */; };
+		E8E301A91EADCDCE00A94399 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8E301A71EADCDCE00A94399 /* libcrypto.a */; };
+		E8E301D91EAF1CA200A94399 /* SRCarStartControlButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E301D81EAF1CA200A94399 /* SRCarStartControlButton.m */; };
+		E8E301DE1EAF1CB600A94399 /* SRCarLocksImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E301DB1EAF1CB600A94399 /* SRCarLocksImageView.m */; };
+		E8E301DF1EAF1CB600A94399 /* SRCarLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E301DD1EAF1CB600A94399 /* SRCarLockView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DEFE50B1EC5A1F1001B518B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DBECD281EA86FC7001EE73F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DBECD2F1EA86FC7001EE73F;
+			remoteInfo = SiRui;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D325E481ECEBD6E00CED9F8 /* bleloading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bleloading.gif; sourceTree = "<group>"; };
+		0D3359601EA9B59C00B6674E /* SRCarStatueData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRCarStatueData.h; sourceTree = "<group>"; };
+		0D3359611EA9B59C00B6674E /* SRCarStatueData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRCarStatueData.m; sourceTree = "<group>"; };
+		0D449F071EBD953200866A8C /* Commons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Commons.bundle; sourceTree = "<group>"; };
+		0D47E2D11EAD80BC00F388AA /* SRCarScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRCarScrollViewController.h; sourceTree = "<group>"; };
+		0D47E2D21EAD80BC00F388AA /* SRCarScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRCarScrollViewController.m; sourceTree = "<group>"; };
+		0D47E2D41EAD80D600F388AA /* SRCarInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRCarInfoViewController.h; sourceTree = "<group>"; };
+		0D47E2D51EAD80D600F388AA /* SRCarInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRCarInfoViewController.m; sourceTree = "<group>"; };
+		0D47E2D81EADF11300F388AA /* loadGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loadGif.gif; sourceTree = "<group>"; };
+		0D47E2DB1EADFCE200F388AA /* SRCarWindowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRCarWindowView.h; sourceTree = "<group>"; };
+		0D47E2DC1EADFCE200F388AA /* SRCarWindowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRCarWindowView.m; sourceTree = "<group>"; };
+		0D70EB8B1EC57CB20092C1F8 /* Connector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Connector.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/SiRui-gtgmjxxyqfrhkcebtdikavsoljdz/Build/Products/Release-iphonesimulator/Connector.framework"; sourceTree = "<group>"; };
+		0D70EB8D1EC57CC40092C1F8 /* libPods-SiRui.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-SiRui.a"; path = "/Users/czl/Desktop/fuzik/siruiDemo1/Pods/../build/Debug-iphoneos/libPods-SiRui.a"; sourceTree = "<absolute>"; };
+		0D70EB8F1EC57DEA0092C1F8 /* Connector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Connector.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/SiRui-gtgmjxxyqfrhkcebtdikavsoljdz/Build/Products/Debug-iphonesimulator/Connector.framework"; sourceTree = "<group>"; };
+		0D70EC0D1EC587A70092C1F8 /* Connector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Connector.framework; path = SiRui/Connector.framework; sourceTree = SOURCE_ROOT; };
+		0D74216E1EBB22CE005A32AB /* SRCarStateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRCarStateViewController.h; sourceTree = "<group>"; };
+		0D74216F1EBB22CE005A32AB /* SRCarStateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRCarStateViewController.m; sourceTree = "<group>"; };
+		0D7987201EBC7A1F00807304 /* SRSliderMenuCustomerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRSliderMenuCustomerViewController.h; sourceTree = "<group>"; };
+		0D7987211EBC7A1F00807304 /* SRSliderMenuCustomerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRSliderMenuCustomerViewController.m; sourceTree = "<group>"; };
+		0D7AC2531EBC0F25008F0BF5 /* SRSlideMenuMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRSlideMenuMainViewController.h; path = ../../../Main/SRSlideMenuMainViewController.h; sourceTree = "<group>"; };
+		0D7AC2541EBC0F25008F0BF5 /* SRSlideMenuMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRSlideMenuMainViewController.m; path = ../../../Main/SRSlideMenuMainViewController.m; sourceTree = "<group>"; };
+		0D7AC2571EBC12D6008F0BF5 /* SRRounteUntils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRRounteUntils.h; sourceTree = "<group>"; };
+		0D7AC2581EBC12D6008F0BF5 /* SRRounteUntils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRRounteUntils.m; sourceTree = "<group>"; };
+		0D7AC2641EBC24C2008F0BF5 /* SRCustomerScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRCustomerScrollView.h; sourceTree = "<group>"; };
+		0D7AC2651EBC24C2008F0BF5 /* SRCustomerScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRCustomerScrollView.m; sourceTree = "<group>"; };
+		0D89B1711EA888C90033C3BE /* CarStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CarStoryboard.storyboard; sourceTree = "<group>"; };
+		0D89B18F1EA8C4770033C3BE /* SRCarAblityButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRCarAblityButton.h; sourceTree = "<group>"; };
+		0D89B1901EA8C4770033C3BE /* SRCarAblityButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRCarAblityButton.m; sourceTree = "<group>"; };
+		0DBECD301EA86FC7001EE73F /* SiRui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SiRui.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DBECD4B1EA86FEE001EE73F /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlipaySDK.framework; path = ../AlipaySDK.framework; sourceTree = "<group>"; };
+		0DBECD4C1EA86FEE001EE73F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DBECD501EA86FEE001EE73F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0DBECD511EA86FEE001EE73F /* Business.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Business.framework; path = ../Business.framework; sourceTree = "<group>"; };
+		0DBECD541EA86FEE001EE73F /* UITextField+SRUntils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+SRUntils.h"; sourceTree = "<group>"; };
+		0DBECD551EA86FEE001EE73F /* UITextField+SRUntils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+SRUntils.m"; sourceTree = "<group>"; };
+		0DBECD581EA86FEE001EE73F /* UserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserConfig.h; sourceTree = "<group>"; };
+		0DBECD5B1EA86FEE001EE73F /* SRTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRTableViewController.h; sourceTree = "<group>"; };
+		0DBECD5C1EA86FEE001EE73F /* SRTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRTableViewController.m; sourceTree = "<group>"; };
+		0DBECD611EA86FEE001EE73F /* SRCarContolMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRCarContolMainViewController.h; sourceTree = "<group>"; };
+		0DBECD621EA86FEE001EE73F /* SRCarContolMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRCarContolMainViewController.m; sourceTree = "<group>"; };
+		0DBECD6B1EA86FEE001EE73F /* AddEquipment.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AddEquipment.storyboard; sourceTree = "<group>"; };
+		0DBECD6C1EA86FEE001EE73F /* SRAddEquipmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRAddEquipmentViewController.h; sourceTree = "<group>"; };
+		0DBECD6D1EA86FEE001EE73F /* SRAddEquipmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRAddEquipmentViewController.m; sourceTree = "<group>"; };
+		0DBECD6F1EA86FEE001EE73F /* SRIMEIScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRIMEIScanViewController.h; sourceTree = "<group>"; };
+		0DBECD701EA86FEE001EE73F /* SRIMEIScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRIMEIScanViewController.m; sourceTree = "<group>"; };
+		0DBECD731EA86FEE001EE73F /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		0DBECD741EA86FEE001EE73F /* Login.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Login.xcassets; sourceTree = "<group>"; };
+		0DBECD751EA86FEE001EE73F /* SRLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRLoginViewController.h; sourceTree = "<group>"; };
+		0DBECD761EA86FEE001EE73F /* SRLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRLoginViewController.m; sourceTree = "<group>"; };
+		0DBECD771EA86FEE001EE73F /* SRRegisterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRRegisterTableViewController.h; sourceTree = "<group>"; };
+		0DBECD781EA86FEE001EE73F /* SRRegisterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRRegisterTableViewController.m; sourceTree = "<group>"; };
+		0DBECD791EA86FEE001EE73F /* SRUserAgreementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRUserAgreementViewController.h; sourceTree = "<group>"; };
+		0DBECD7A1EA86FEE001EE73F /* SRUserAgreementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRUserAgreementViewController.m; sourceTree = "<group>"; };
+		0DBECD7C1EA86FEE001EE73F /* BrandVehicle.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BrandVehicle.storyboard; sourceTree = "<group>"; };
+		0DBECD7E1EA86FEE001EE73F /* SRBrandVehicleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRBrandVehicleViewController.h; sourceTree = "<group>"; };
+		0DBECD7F1EA86FEE001EE73F /* SRBrandVehicleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRBrandVehicleViewController.m; sourceTree = "<group>"; };
+		0DBECD821EA86FEE001EE73F /* SRPublicMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRPublicMethod.h; sourceTree = "<group>"; };
+		0DBECD831EA86FEE001EE73F /* SRPublicMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRPublicMethod.m; sourceTree = "<group>"; };
+		0DBECD851EA86FEE001EE73F /* Commons.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Commons.framework; path = ../Commons.framework; sourceTree = "<group>"; };
+		0DBECD871EA86FEE001EE73F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DBECD881EA86FEE001EE73F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0DBECD891EA86FEE001EE73F /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0DBECD8C1EA86FEE001EE73F /* engine_open.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = engine_open.wav; sourceTree = "<group>"; };
+		0DBECD8E1EA86FEE001EE73F /* CodeScan.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CodeScan.bundle; sourceTree = "<group>"; };
+		0DBECD8F1EA86FEE001EE73F /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
+		0DBECD911EA86FEE001EE73F /* SRAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRAppDelegate.h; sourceTree = "<group>"; };
+		0DBECD921EA86FEE001EE73F /* SRAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRAppDelegate.m; sourceTree = "<group>"; };
+		0DBECD931EA86FEE001EE73F /* SRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRViewController.h; path = ../../SRViewController.h; sourceTree = "<group>"; };
+		0DBECD941EA86FEE001EE73F /* SRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRViewController.m; path = ../../SRViewController.m; sourceTree = "<group>"; };
+		0DEFE4F41EC5996C001B518B /* libPods-SiRui.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-SiRui.a"; path = "../../../../../Library/Developer/Xcode/DerivedData/SiRui-gtgmjxxyqfrhkcebtdikavsoljdz/Build/Products/Debug-iphonesimulator/libPods-SiRui.a"; sourceTree = "<group>"; };
+		0DEFE4F61EC59995001B518B /* libSUIMVVMKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSUIMVVMKit.a; path = "../../../../../Library/Developer/Xcode/DerivedData/SiRui-gtgmjxxyqfrhkcebtdikavsoljdz/Build/Products/Debug-iphonesimulator/SUIMVVMKit/libSUIMVVMKit.a"; sourceTree = "<group>"; };
+		0DEFE5061EC5A1F1001B518B /* SiRuiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SiRuiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DEFE5081EC5A1F1001B518B /* SiRuiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SiRuiTests.m; sourceTree = "<group>"; };
+		0DEFE50A1EC5A1F1001B518B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F134B1A3A5D37A43F249625 /* Pods-SiRuiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiRuiTests.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-SiRuiTests/Pods-SiRuiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		69B9CC25D0532ED28795BE14 /* Pods-SiRuiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiRuiTests.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-SiRuiTests/Pods-SiRuiTests.release.xcconfig"; sourceTree = "<group>"; };
+		9F1D5F2060E01D319D051F39 /* Pods-SiRui.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiRui.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-SiRui/Pods-SiRui.release.xcconfig"; sourceTree = "<group>"; };
+		B76E808D40EC0BFB577D9CBB /* Pods-SiRui.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiRui.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-SiRui/Pods-SiRui.debug.xcconfig"; sourceTree = "<group>"; };
+		D1768B4588237AE3800E2556 /* libPods-SiRuiTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SiRuiTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E86CC6A01EBAB88000004920 /* SRHistoricalTrackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRHistoricalTrackViewController.h; sourceTree = "<group>"; };
+		E86CC6A11EBAB88000004920 /* SRHistoricalTrackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRHistoricalTrackViewController.m; sourceTree = "<group>"; };
+		E86CC6A71EBAF3F800004920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SRMap.storyboard; sourceTree = "<group>"; };
+		E86CC6AA1EBAF73600004920 /* SRHistoricalTrackTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRHistoricalTrackTableViewCell.h; sourceTree = "<group>"; };
+		E86CC6AB1EBAF73600004920 /* SRHistoricalTrackTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRHistoricalTrackTableViewCell.m; sourceTree = "<group>"; };
+		E86CC6AC1EBAF73600004920 /* SRHistoricalTrackTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SRHistoricalTrackTableViewCell.xib; sourceTree = "<group>"; };
+		E86CC6B21EBB080500004920 /* SRHistoricalTrackTableSectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SRHistoricalTrackTableSectionHeader.xib; sourceTree = "<group>"; };
+		E86FEEB51EBC467A0020AA25 /* SRTrajectoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRTrajectoryTableViewCell.h; sourceTree = "<group>"; };
+		E86FEEB61EBC467A0020AA25 /* SRTrajectoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRTrajectoryTableViewCell.m; sourceTree = "<group>"; };
+		E86FEEB71EBC467A0020AA25 /* SRTrajectoryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SRTrajectoryTableViewCell.xib; sourceTree = "<group>"; };
+		E883517A1EB30FB700E38625 /* SRMainMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRMainMapViewController.h; sourceTree = "<group>"; };
+		E883517B1EB30FB700E38625 /* SRMainMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRMainMapViewController.m; sourceTree = "<group>"; };
+		E8E300A91EA8A7C500A94399 /* SRIntroductionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRIntroductionViewController.h; sourceTree = "<group>"; };
+		E8E300AA1EA8A7C500A94399 /* SRIntroductionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRIntroductionViewController.m; sourceTree = "<group>"; };
+		E8E300AD1EA8A89F00A94399 /* ZWImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ZWImages.xcassets; sourceTree = "<group>"; };
+		E8E300F61EA9D81300A94399 /* SRAppDelegate+XHLaunchAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SRAppDelegate+XHLaunchAd.h"; sourceTree = "<group>"; };
+		E8E300F71EA9D81300A94399 /* SRAppDelegate+XHLaunchAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SRAppDelegate+XHLaunchAd.m"; sourceTree = "<group>"; };
+		E8E301141EA9D8D600A94399 /* LaunchImageAd.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LaunchImageAd.json; sourceTree = "<group>"; };
+		E8E301151EA9D8D600A94399 /* LaunchVideoAd.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LaunchVideoAd.json; sourceTree = "<group>"; };
+		E8E301301EA9DB6700A94399 /* LaunchAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = LaunchAssets.xcassets; sourceTree = "<group>"; };
+		E8E301371EA9DE0500A94399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8E3013D1EA9E9DC00A94399 /* SRUrlSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRUrlSettingTableViewController.h; sourceTree = "<group>"; };
+		E8E3013E1EA9E9DC00A94399 /* SRUrlSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRUrlSettingTableViewController.m; sourceTree = "<group>"; };
+		E8E301401EA9EBCC00A94399 /* SRURLManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRURLManager.h; sourceTree = "<group>"; };
+		E8E301411EA9EBCC00A94399 /* SRURLManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRURLManager.m; sourceTree = "<group>"; };
+		E8E301911EADC96B00A94399 /* SRTrajectoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRTrajectoryViewController.h; sourceTree = "<group>"; };
+		E8E301921EADC96B00A94399 /* SRTrajectoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRTrajectoryViewController.m; sourceTree = "<group>"; };
+		E8E301941EADCCD500A94399 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E8E301961EADCCDE00A94399 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E8E301981EADCCE600A94399 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		E8E3019A1EADCCEF00A94399 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E8E3019C1EADCCF900A94399 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E8E3019E1EADCD0700A94399 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E8E301A01EADCD1100A94399 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		E8E301A21EADCD2100A94399 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		E8E301A41EADCD2F00A94399 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		E8E301A61EADCDCE00A94399 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = ../../Pods/BaiduMapKit/BaiduMapKit/thirdlibs/libssl.a; sourceTree = "<group>"; };
+		E8E301A71EADCDCE00A94399 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = ../../Pods/BaiduMapKit/BaiduMapKit/thirdlibs/libcrypto.a; sourceTree = "<group>"; };
+		E8E301D71EAF1CA200A94399 /* SRCarStartControlButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRCarStartControlButton.h; path = ../SRCarStartControlButton.h; sourceTree = "<group>"; };
+		E8E301D81EAF1CA200A94399 /* SRCarStartControlButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRCarStartControlButton.m; path = ../SRCarStartControlButton.m; sourceTree = "<group>"; };
+		E8E301DA1EAF1CB600A94399 /* SRCarLocksImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRCarLocksImageView.h; path = "SiRui/Classes/Sections/汽车控制/控制按钮自定制/SRCarLocksImageView.h"; sourceTree = SOURCE_ROOT; };
+		E8E301DB1EAF1CB600A94399 /* SRCarLocksImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRCarLocksImageView.m; path = "SiRui/Classes/Sections/汽车控制/控制按钮自定制/SRCarLocksImageView.m"; sourceTree = SOURCE_ROOT; };
+		E8E301DC1EAF1CB600A94399 /* SRCarLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRCarLockView.h; path = "SiRui/Classes/Sections/汽车控制/控制按钮自定制/SRCarLockView.h"; sourceTree = SOURCE_ROOT; };
+		E8E301DD1EAF1CB600A94399 /* SRCarLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRCarLockView.m; path = "SiRui/Classes/Sections/汽车控制/控制按钮自定制/SRCarLockView.m"; sourceTree = SOURCE_ROOT; };
+		FC185EECB793C76CB627D4E3 /* libPods-SiRui.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SiRui.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DBECD2D1EA86FC7001EE73F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8E301951EADCCD500A94399 /* CoreLocation.framework in Frameworks */,
+				E8E301A81EADCDCE00A94399 /* libssl.a in Frameworks */,
+				E8E301A91EADCDCE00A94399 /* libcrypto.a in Frameworks */,
+				E8E301A51EADCD2F00A94399 /* libstdc++.6.0.9.tbd in Frameworks */,
+				E8E301A31EADCD2100A94399 /* CoreTelephony.framework in Frameworks */,
+				E8E301A11EADCD1100A94399 /* libsqlite3.0.tbd in Frameworks */,
+				E8E3019F1EADCD0700A94399 /* Security.framework in Frameworks */,
+				E8E3019D1EADCCF900A94399 /* CoreGraphics.framework in Frameworks */,
+				E8E3019B1EADCCEF00A94399 /* SystemConfiguration.framework in Frameworks */,
+				E8E301991EADCCE600A94399 /* OpenGLES.framework in Frameworks */,
+				0DEFE4F31EC59925001B518B /* Connector.framework in Frameworks */,
+				0DEFE4F01EC59824001B518B /* Business.framework in Frameworks */,
+				E8E301971EADCCDE00A94399 /* QuartzCore.framework in Frameworks */,
+				0DBECD951EA86FEE001EE73F /* AlipaySDK.framework in Frameworks */,
+				0DBECDAD1EA86FEE001EE73F /* Commons.framework in Frameworks */,
+				C6B0B96DD61D95C1D1BB0FAD /* libPods-SiRui.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DEFE5031EC5A1F1001B518B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DEFE5101EC5A295001B518B /* Connector.framework in Frameworks */,
+				1A70895F2EA2A4E13A550815 /* libPods-SiRuiTests.a in Frameworks */,
+				0DEFE5131EC5A295001B518B /* Commons.framework in Frameworks */,
+				0DEFE5121EC5A295001B518B /* Business.framework in Frameworks */,
+				0DEFE5111EC5A295001B518B /* AlipaySDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D33595F1EA9B56A00B6674E /* 车状态数据处理 */ = {
+			isa = PBXGroup;
+			children = (
+				0D3359601EA9B59C00B6674E /* SRCarStatueData.h */,
+				0D3359611EA9B59C00B6674E /* SRCarStatueData.m */,
+			);
+			path = "车状态数据处理";
+			sourceTree = "<group>";
+		};
+		0D3359631EA9D13400B6674E /* 开关车锁处理 */ = {
+			isa = PBXGroup;
+			children = (
+				E8E301DA1EAF1CB600A94399 /* SRCarLocksImageView.h */,
+				E8E301DB1EAF1CB600A94399 /* SRCarLocksImageView.m */,
+				E8E301DC1EAF1CB600A94399 /* SRCarLockView.h */,
+				E8E301DD1EAF1CB600A94399 /* SRCarLockView.m */,
+			);
+			path = "开关车锁处理";
+			sourceTree = "<group>";
+		};
+		0D3359641EA9D13400B6674E /* 启动车辆处理 */ = {
+			isa = PBXGroup;
+			children = (
+				E8E301D71EAF1CA200A94399 /* SRCarStartControlButton.h */,
+				E8E301D81EAF1CA200A94399 /* SRCarStartControlButton.m */,
+			);
+			path = "启动车辆处理";
+			sourceTree = "<group>";
+		};
+		0D47E2DA1EADFCB100F388AA /* 车窗处理 */ = {
+			isa = PBXGroup;
+			children = (
+				0D47E2DB1EADFCE200F388AA /* SRCarWindowView.h */,
+				0D47E2DC1EADFCE200F388AA /* SRCarWindowView.m */,
+			);
+			path = "车窗处理";
+			sourceTree = "<group>";
+		};
+		0D74216D1EBAF2AA005A32AB /* 汽车状态显示控件 */ = {
+			isa = PBXGroup;
+			children = (
+				0D74216E1EBB22CE005A32AB /* SRCarStateViewController.h */,
+				0D74216F1EBB22CE005A32AB /* SRCarStateViewController.m */,
+			);
+			path = "汽车状态显示控件";
+			sourceTree = "<group>";
+		};
+		0D7AC2561EBC1223008F0BF5 /* 侧边栏 */ = {
+			isa = PBXGroup;
+			children = (
+				0D7AC2531EBC0F25008F0BF5 /* SRSlideMenuMainViewController.h */,
+				0D7AC2541EBC0F25008F0BF5 /* SRSlideMenuMainViewController.m */,
+				0D7987201EBC7A1F00807304 /* SRSliderMenuCustomerViewController.h */,
+				0D7987211EBC7A1F00807304 /* SRSliderMenuCustomerViewController.m */,
+			);
+			path = "侧边栏";
+			sourceTree = "<group>";
+		};
+		0D7AC2631EBC24AB008F0BF5 /* 通用自定义控件 */ = {
+			isa = PBXGroup;
+			children = (
+				0D7AC2641EBC24C2008F0BF5 /* SRCustomerScrollView.h */,
+				0D7AC2651EBC24C2008F0BF5 /* SRCustomerScrollView.m */,
+			);
+			path = "通用自定义控件";
+			sourceTree = "<group>";
+		};
+		0DBECD271EA86FC7001EE73F = {
+			isa = PBXGroup;
+			children = (
+				0DBECD4A1EA86FEE001EE73F /* SiRui */,
+				0DEFE5071EC5A1F1001B518B /* SiRuiTests */,
+				0DBECD311EA86FC7001EE73F /* Products */,
+				A795D86116C0535A0628601C /* Pods */,
+				46F9A27BA9D3975B1E53D684 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0DBECD311EA86FC7001EE73F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DBECD301EA86FC7001EE73F /* SiRui.app */,
+				0DEFE5061EC5A1F1001B518B /* SiRuiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DBECD4A1EA86FEE001EE73F /* SiRui */ = {
+			isa = PBXGroup;
+			children = (
+				0DBECD521EA86FEE001EE73F /* Classes */,
+				0DBECD8A1EA86FEE001EE73F /* Resource */,
+				0DBECD4C1EA86FEE001EE73F /* Assets.xcassets */,
+				E8E301361EA9DE0500A94399 /* LaunchScreen.storyboard */,
+				0DBECD871EA86FEE001EE73F /* Info.plist */,
+				0DBECD881EA86FEE001EE73F /* main.m */,
+				0DBECD891EA86FEE001EE73F /* PrefixHeader.pch */,
+				0DBECD911EA86FEE001EE73F /* SRAppDelegate.h */,
+				0DBECD921EA86FEE001EE73F /* SRAppDelegate.m */,
+			);
+			path = SiRui;
+			sourceTree = "<group>";
+		};
+		0DBECD521EA86FEE001EE73F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0DBECD531EA86FEE001EE73F /* Category */,
+				0DBECD561EA86FEE001EE73F /* Macro */,
+				0DBECD591EA86FEE001EE73F /* Main */,
+				0DBECD5A1EA86FEE001EE73F /* Other */,
+				0DBECD5E1EA86FEE001EE73F /* Sections */,
+				0DBECD801EA86FEE001EE73F /* Tools */,
+				0DBECD841EA86FEE001EE73F /* Vendor */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0DBECD531EA86FEE001EE73F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0DBECD541EA86FEE001EE73F /* UITextField+SRUntils.h */,
+				0DBECD551EA86FEE001EE73F /* UITextField+SRUntils.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		0DBECD561EA86FEE001EE73F /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				0DBECD581EA86FEE001EE73F /* UserConfig.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		0DBECD591EA86FEE001EE73F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0DBECD4F1EA86FEE001EE73F /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0DBECD5A1EA86FEE001EE73F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				0D7AC2631EBC24AB008F0BF5 /* 通用自定义控件 */,
+				0DBECD931EA86FEE001EE73F /* SRViewController.h */,
+				0DBECD941EA86FEE001EE73F /* SRViewController.m */,
+				0DBECD5B1EA86FEE001EE73F /* SRTableViewController.h */,
+				0DBECD5C1EA86FEE001EE73F /* SRTableViewController.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		0DBECD5E1EA86FEE001EE73F /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				E8E301461EADAAF100A94399 /* 地图界面 */,
+				E8E301391EA9E99800A94399 /* 服务器设置 */,
+				E8E300F51EA9D7ED00A94399 /* 启动页 */,
+				E8E300A81EA8A6ED00A94399 /* 引导页 */,
+				0DBECD5F1EA86FEE001EE73F /* 汽车控制 */,
+				0DBECD6A1EA86FEE001EE73F /* 添加设备 */,
+				0DBECD721EA86FEE001EE73F /* 登录注册 */,
+				0DBECD7B1EA86FEE001EE73F /* 车型选择 */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		0DBECD5F1EA86FEE001EE73F /* 汽车控制 */ = {
+			isa = PBXGroup;
+			children = (
+				0D7AC2561EBC1223008F0BF5 /* 侧边栏 */,
+				0D74216D1EBAF2AA005A32AB /* 汽车状态显示控件 */,
+				0D47E2D11EAD80BC00F388AA /* SRCarScrollViewController.h */,
+				0D47E2D21EAD80BC00F388AA /* SRCarScrollViewController.m */,
+				0D89B1711EA888C90033C3BE /* CarStoryboard.storyboard */,
+				0DBECD611EA86FEE001EE73F /* SRCarContolMainViewController.h */,
+				0DBECD621EA86FEE001EE73F /* SRCarContolMainViewController.m */,
+				0D47E2D41EAD80D600F388AA /* SRCarInfoViewController.h */,
+				0D47E2D51EAD80D600F388AA /* SRCarInfoViewController.m */,
+				0DBECD631EA86FEE001EE73F /* 控制按钮自定制 */,
+			);
+			path = "汽车控制";
+			sourceTree = "<group>";
+		};
+		0DBECD631EA86FEE001EE73F /* 控制按钮自定制 */ = {
+			isa = PBXGroup;
+			children = (
+				0D47E2DA1EADFCB100F388AA /* 车窗处理 */,
+				0D3359631EA9D13400B6674E /* 开关车锁处理 */,
+				0D3359641EA9D13400B6674E /* 启动车辆处理 */,
+				0D33595F1EA9B56A00B6674E /* 车状态数据处理 */,
+				0D89B18F1EA8C4770033C3BE /* SRCarAblityButton.h */,
+				0D89B1901EA8C4770033C3BE /* SRCarAblityButton.m */,
+			);
+			path = "控制按钮自定制";
+			sourceTree = "<group>";
+		};
+		0DBECD6A1EA86FEE001EE73F /* 添加设备 */ = {
+			isa = PBXGroup;
+			children = (
+				0DBECD6B1EA86FEE001EE73F /* AddEquipment.storyboard */,
+				0DBECD6C1EA86FEE001EE73F /* SRAddEquipmentViewController.h */,
+				0DBECD6D1EA86FEE001EE73F /* SRAddEquipmentViewController.m */,
+				0DBECD6E1EA86FEE001EE73F /* 二维码扫描 */,
+			);
+			path = "添加设备";
+			sourceTree = "<group>";
+		};
+		0DBECD6E1EA86FEE001EE73F /* 二维码扫描 */ = {
+			isa = PBXGroup;
+			children = (
+				0DBECD6F1EA86FEE001EE73F /* SRIMEIScanViewController.h */,
+				0DBECD701EA86FEE001EE73F /* SRIMEIScanViewController.m */,
+			);
+			path = "二维码扫描";
+			sourceTree = "<group>";
+		};
+		0DBECD721EA86FEE001EE73F /* 登录注册 */ = {
+			isa = PBXGroup;
+			children = (
+				0DBECD731EA86FEE001EE73F /* Login.storyboard */,
+				0DBECD741EA86FEE001EE73F /* Login.xcassets */,
+				0DBECD751EA86FEE001EE73F /* SRLoginViewController.h */,
+				0DBECD761EA86FEE001EE73F /* SRLoginViewController.m */,
+				0DBECD771EA86FEE001EE73F /* SRRegisterTableViewController.h */,
+				0DBECD781EA86FEE001EE73F /* SRRegisterTableViewController.m */,
+				0DBECD791EA86FEE001EE73F /* SRUserAgreementViewController.h */,
+				0DBECD7A1EA86FEE001EE73F /* SRUserAgreementViewController.m */,
+			);
+			path = "登录注册";
+			sourceTree = "<group>";
+		};
+		0DBECD7B1EA86FEE001EE73F /* 车型选择 */ = {
+			isa = PBXGroup;
+			children = (
+				0DBECD7C1EA86FEE001EE73F /* BrandVehicle.storyboard */,
+				0DBECD7E1EA86FEE001EE73F /* SRBrandVehicleViewController.h */,
+				0DBECD7F1EA86FEE001EE73F /* SRBrandVehicleViewController.m */,
+			);
+			path = "车型选择";
+			sourceTree = "<group>";
+		};
+		0DBECD801EA86FEE001EE73F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				0DBECD811EA86FEE001EE73F /* SRInterceptorUtil */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		0DBECD811EA86FEE001EE73F /* SRInterceptorUtil */ = {
+			isa = PBXGroup;
+			children = (
+				0DBECD821EA86FEE001EE73F /* SRPublicMethod.h */,
+				0DBECD831EA86FEE001EE73F /* SRPublicMethod.m */,
+				0D7AC2571EBC12D6008F0BF5 /* SRRounteUntils.h */,
+				0D7AC2581EBC12D6008F0BF5 /* SRRounteUntils.m */,
+			);
+			path = SRInterceptorUtil;
+			sourceTree = "<group>";
+		};
+		0DBECD841EA86FEE001EE73F /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		0DBECD8A1EA86FEE001EE73F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0D70EC0D1EC587A70092C1F8 /* Connector.framework */,
+				0DBECD4B1EA86FEE001EE73F /* AlipaySDK.framework */,
+				0DBECD511EA86FEE001EE73F /* Business.framework */,
+				0DBECD851EA86FEE001EE73F /* Commons.framework */,
+				0DBECD8B1EA86FEE001EE73F /* Audio */,
+				0DBECD8D1EA86FEE001EE73F /* Image */,
+				0DBECD901EA86FEE001EE73F /* Other */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		0DBECD8B1EA86FEE001EE73F /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				0DBECD8C1EA86FEE001EE73F /* engine_open.wav */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		0DBECD8D1EA86FEE001EE73F /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				0D325E481ECEBD6E00CED9F8 /* bleloading.gif */,
+				0D449F071EBD953200866A8C /* Commons.bundle */,
+				0D47E2D81EADF11300F388AA /* loadGif.gif */,
+				0DBECD8E1EA86FEE001EE73F /* CodeScan.bundle */,
+				0DBECD8F1EA86FEE001EE73F /* test.jpg */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		0DBECD901EA86FEE001EE73F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		0DEFE5071EC5A1F1001B518B /* SiRuiTests */ = {
+			isa = PBXGroup;
+			children = (
+				0DEFE5081EC5A1F1001B518B /* SiRuiTests.m */,
+				0DEFE50A1EC5A1F1001B518B /* Info.plist */,
+			);
+			path = SiRuiTests;
+			sourceTree = "<group>";
+		};
+		46F9A27BA9D3975B1E53D684 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DEFE4F61EC59995001B518B /* libSUIMVVMKit.a */,
+				0DEFE4F41EC5996C001B518B /* libPods-SiRui.a */,
+				0D70EB8F1EC57DEA0092C1F8 /* Connector.framework */,
+				0D70EB8D1EC57CC40092C1F8 /* libPods-SiRui.a */,
+				0D70EB8B1EC57CB20092C1F8 /* Connector.framework */,
+				E8E301A61EADCDCE00A94399 /* libssl.a */,
+				E8E301A71EADCDCE00A94399 /* libcrypto.a */,
+				E8E301A41EADCD2F00A94399 /* libstdc++.6.0.9.tbd */,
+				E8E301A21EADCD2100A94399 /* CoreTelephony.framework */,
+				E8E301A01EADCD1100A94399 /* libsqlite3.0.tbd */,
+				E8E3019E1EADCD0700A94399 /* Security.framework */,
+				E8E3019C1EADCCF900A94399 /* CoreGraphics.framework */,
+				E8E3019A1EADCCEF00A94399 /* SystemConfiguration.framework */,
+				E8E301981EADCCE600A94399 /* OpenGLES.framework */,
+				E8E301961EADCCDE00A94399 /* QuartzCore.framework */,
+				E8E301941EADCCD500A94399 /* CoreLocation.framework */,
+				FC185EECB793C76CB627D4E3 /* libPods-SiRui.a */,
+				D1768B4588237AE3800E2556 /* libPods-SiRuiTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A795D86116C0535A0628601C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B76E808D40EC0BFB577D9CBB /* Pods-SiRui.debug.xcconfig */,
+				9F1D5F2060E01D319D051F39 /* Pods-SiRui.release.xcconfig */,
+				1F134B1A3A5D37A43F249625 /* Pods-SiRuiTests.debug.xcconfig */,
+				69B9CC25D0532ED28795BE14 /* Pods-SiRuiTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E8E300A81EA8A6ED00A94399 /* 引导页 */ = {
+			isa = PBXGroup;
+			children = (
+				E8E300AD1EA8A89F00A94399 /* ZWImages.xcassets */,
+				E8E300A91EA8A7C500A94399 /* SRIntroductionViewController.h */,
+				E8E300AA1EA8A7C500A94399 /* SRIntroductionViewController.m */,
+			);
+			path = "引导页";
+			sourceTree = "<group>";
+		};
+		E8E300F51EA9D7ED00A94399 /* 启动页 */ = {
+			isa = PBXGroup;
+			children = (
+				E8E3010C1EA9D8D600A94399 /* Source */,
+				E8E300F61EA9D81300A94399 /* SRAppDelegate+XHLaunchAd.h */,
+				E8E300F71EA9D81300A94399 /* SRAppDelegate+XHLaunchAd.m */,
+			);
+			path = "启动页";
+			sourceTree = "<group>";
+		};
+		E8E3010C1EA9D8D600A94399 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E8E301301EA9DB6700A94399 /* LaunchAssets.xcassets */,
+				E8E301141EA9D8D600A94399 /* LaunchImageAd.json */,
+				E8E301151EA9D8D600A94399 /* LaunchVideoAd.json */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		E8E301391EA9E99800A94399 /* 服务器设置 */ = {
+			isa = PBXGroup;
+			children = (
+				E8E3013D1EA9E9DC00A94399 /* SRUrlSettingTableViewController.h */,
+				E8E3013E1EA9E9DC00A94399 /* SRUrlSettingTableViewController.m */,
+				E8E301401EA9EBCC00A94399 /* SRURLManager.h */,
+				E8E301411EA9EBCC00A94399 /* SRURLManager.m */,
+			);
+			path = "服务器设置";
+			sourceTree = "<group>";
+		};
+		E8E301461EADAAF100A94399 /* 地图界面 */ = {
+			isa = PBXGroup;
+			children = (
+				E883517A1EB30FB700E38625 /* SRMainMapViewController.h */,
+				E883517B1EB30FB700E38625 /* SRMainMapViewController.m */,
+				E8E301911EADC96B00A94399 /* SRTrajectoryViewController.h */,
+				E8E301921EADC96B00A94399 /* SRTrajectoryViewController.m */,
+				E86FEEB51EBC467A0020AA25 /* SRTrajectoryTableViewCell.h */,
+				E86FEEB61EBC467A0020AA25 /* SRTrajectoryTableViewCell.m */,
+				E86FEEB71EBC467A0020AA25 /* SRTrajectoryTableViewCell.xib */,
+				E86CC6A01EBAB88000004920 /* SRHistoricalTrackViewController.h */,
+				E86CC6A11EBAB88000004920 /* SRHistoricalTrackViewController.m */,
+				E86CC6AA1EBAF73600004920 /* SRHistoricalTrackTableViewCell.h */,
+				E86CC6AB1EBAF73600004920 /* SRHistoricalTrackTableViewCell.m */,
+				E86CC6AC1EBAF73600004920 /* SRHistoricalTrackTableViewCell.xib */,
+				E86CC6B21EBB080500004920 /* SRHistoricalTrackTableSectionHeader.xib */,
+				E86CC6A51EBAC31B00004920 /* SRMap.storyboard */,
+			);
+			path = "地图界面";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DBECD2F1EA86FC7001EE73F /* SiRui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DBECD471EA86FC7001EE73F /* Build configuration list for PBXNativeTarget "SiRui" */;
+			buildPhases = (
+				A298BA66F8DB14F3A89BD8F7 /* [CP] Check Pods Manifest.lock */,
+				0DBECD2C1EA86FC7001EE73F /* Sources */,
+				0DBECD2D1EA86FC7001EE73F /* Frameworks */,
+				0DBECD2E1EA86FC7001EE73F /* Resources */,
+				62596BBD5EAD32F32F406275 /* [CP] Embed Pods Frameworks */,
+				F8723258054A9124D88685EB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SiRui;
+			productName = SiRui;
+			productReference = 0DBECD301EA86FC7001EE73F /* SiRui.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0DEFE5051EC5A1F1001B518B /* SiRuiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DEFE50D1EC5A1F1001B518B /* Build configuration list for PBXNativeTarget "SiRuiTests" */;
+			buildPhases = (
+				5933A0B8A35147BF8E4EF0D1 /* [CP] Check Pods Manifest.lock */,
+				0DEFE5021EC5A1F1001B518B /* Sources */,
+				0DEFE5031EC5A1F1001B518B /* Frameworks */,
+				0DEFE5041EC5A1F1001B518B /* Resources */,
+				A15232D8FF22EB1964855D85 /* [CP] Embed Pods Frameworks */,
+				97C8A8A659F4628C77403052 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DEFE50C1EC5A1F1001B518B /* PBXTargetDependency */,
+			);
+			name = SiRuiTests;
+			productName = SiRuiTests;
+			productReference = 0DEFE5061EC5A1F1001B518B /* SiRuiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DBECD281EA86FC7001EE73F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SR;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = chinapke;
+				TargetAttributes = {
+					0DBECD2F1EA86FC7001EE73F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = B3LET74VX6;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+					0DEFE5051EC5A1F1001B518B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = B3LET74VX6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0DBECD2F1EA86FC7001EE73F;
+					};
+				};
+			};
+			buildConfigurationList = 0DBECD2B1EA86FC7001EE73F /* Build configuration list for PBXProject "SiRui" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DBECD271EA86FC7001EE73F;
+			productRefGroup = 0DBECD311EA86FC7001EE73F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DBECD2F1EA86FC7001EE73F /* SiRui */,
+				0DEFE5051EC5A1F1001B518B /* SiRuiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DBECD2E1EA86FC7001EE73F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E86CC6AE1EBAF73600004920 /* SRHistoricalTrackTableViewCell.xib in Resources */,
+				0D89B1721EA888C90033C3BE /* CarStoryboard.storyboard in Resources */,
+				E86CC6B31EBB080500004920 /* SRHistoricalTrackTableSectionHeader.xib in Resources */,
+				0DBECDA11EA86FEE001EE73F /* AddEquipment.storyboard in Resources */,
+				0DBECDB11EA86FEE001EE73F /* engine_open.wav in Resources */,
+				E86FEEB91EBC467A0020AA25 /* SRTrajectoryTableViewCell.xib in Resources */,
+				0DBECD981EA86FEE001EE73F /* Main.storyboard in Resources */,
+				0DBECDB31EA86FEE001EE73F /* test.jpg in Resources */,
+				E86CC6A31EBAC31B00004920 /* SRMap.storyboard in Resources */,
+				E8E301311EA9DB6700A94399 /* LaunchAssets.xcassets in Resources */,
+				E8E301281EA9D8D600A94399 /* LaunchVideoAd.json in Resources */,
+				0D7AC26A1EBC3F75008F0BF5 /* Login.storyboard in Resources */,
+				0DBECDA51EA86FEE001EE73F /* Login.xcassets in Resources */,
+				0D449F081EBD953200866A8C /* Commons.bundle in Resources */,
+				E8E300AE1EA8A89F00A94399 /* ZWImages.xcassets in Resources */,
+				0DBECD961EA86FEE001EE73F /* Assets.xcassets in Resources */,
+				E8E301271EA9D8D600A94399 /* LaunchImageAd.json in Resources */,
+				0DBECDA91EA86FEE001EE73F /* BrandVehicle.storyboard in Resources */,
+				0DBECDB21EA86FEE001EE73F /* CodeScan.bundle in Resources */,
+				0D47E2D91EADF11300F388AA /* loadGif.gif in Resources */,
+				E8E301381EA9DE0500A94399 /* LaunchScreen.storyboard in Resources */,
+				0D325E491ECEBD6E00CED9F8 /* bleloading.gif in Resources */,
+				0DBECDAF1EA86FEE001EE73F /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DEFE5041EC5A1F1001B518B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5933A0B8A35147BF8E4EF0D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		62596BBD5EAD32F32F406275 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../../Pods/Target Support Files/Pods-SiRui/Pods-SiRui-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97C8A8A659F4628C77403052 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../../Pods/Target Support Files/Pods-SiRuiTests/Pods-SiRuiTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A15232D8FF22EB1964855D85 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../../Pods/Target Support Files/Pods-SiRuiTests/Pods-SiRuiTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A298BA66F8DB14F3A89BD8F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F8723258054A9124D88685EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../../Pods/Target Support Files/Pods-SiRui/Pods-SiRui-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DBECD2C1EA86FC7001EE73F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DBECDAB1EA86FEE001EE73F /* SRBrandVehicleViewController.m in Sources */,
+				E86CC6A21EBAB88000004920 /* SRHistoricalTrackViewController.m in Sources */,
+				E883517C1EB30FB700E38625 /* SRMainMapViewController.m in Sources */,
+				E8E301DF1EAF1CB600A94399 /* SRCarLockView.m in Sources */,
+				E8E300F81EA9D81300A94399 /* SRAppDelegate+XHLaunchAd.m in Sources */,
+				0D7421701EBB22CE005A32AB /* SRCarStateViewController.m in Sources */,
+				0DBECDB51EA86FEE001EE73F /* SRViewController.m in Sources */,
+				0D47E2D61EAD80D600F388AA /* SRCarInfoViewController.m in Sources */,
+				E8E301D91EAF1CA200A94399 /* SRCarStartControlButton.m in Sources */,
+				0D7AC2551EBC0F25008F0BF5 /* SRSlideMenuMainViewController.m in Sources */,
+				E86CC6AD1EBAF73600004920 /* SRHistoricalTrackTableViewCell.m in Sources */,
+				E8E3013F1EA9E9DC00A94399 /* SRUrlSettingTableViewController.m in Sources */,
+				0DBECDA61EA86FEE001EE73F /* SRLoginViewController.m in Sources */,
+				E86FEEB81EBC467A0020AA25 /* SRTrajectoryTableViewCell.m in Sources */,
+				0DBECDA31EA86FEE001EE73F /* SRIMEIScanViewController.m in Sources */,
+				0DBECDA81EA86FEE001EE73F /* SRUserAgreementViewController.m in Sources */,
+				0D7AC2661EBC24C2008F0BF5 /* SRCustomerScrollView.m in Sources */,
+				0DBECDAC1EA86FEE001EE73F /* SRPublicMethod.m in Sources */,
+				0D89B1911EA8C4770033C3BE /* SRCarAblityButton.m in Sources */,
+				0DBECDB41EA86FEE001EE73F /* SRAppDelegate.m in Sources */,
+				0DBECDA21EA86FEE001EE73F /* SRAddEquipmentViewController.m in Sources */,
+				E8E301421EA9EBCC00A94399 /* SRURLManager.m in Sources */,
+				E8E300AB1EA8A7C500A94399 /* SRIntroductionViewController.m in Sources */,
+				0DBECDA71EA86FEE001EE73F /* SRRegisterTableViewController.m in Sources */,
+				0D7987221EBC7A1F00807304 /* SRSliderMenuCustomerViewController.m in Sources */,
+				0DBECD9B1EA86FEE001EE73F /* SRTableViewController.m in Sources */,
+				0DBECD9A1EA86FEE001EE73F /* UITextField+SRUntils.m in Sources */,
+				E8E301931EADC96B00A94399 /* SRTrajectoryViewController.m in Sources */,
+				0D3359621EA9B59C00B6674E /* SRCarStatueData.m in Sources */,
+				0DBECDB01EA86FEE001EE73F /* main.m in Sources */,
+				0D47E2DD1EADFCE200F388AA /* SRCarWindowView.m in Sources */,
+				0DBECD9D1EA86FEE001EE73F /* SRCarContolMainViewController.m in Sources */,
+				E8E301DE1EAF1CB600A94399 /* SRCarLocksImageView.m in Sources */,
+				0D47E2D31EAD80BC00F388AA /* SRCarScrollViewController.m in Sources */,
+				0D7AC2591EBC12D6008F0BF5 /* SRRounteUntils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DEFE5021EC5A1F1001B518B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DEFE5091EC5A1F1001B518B /* SiRuiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DEFE50C1EC5A1F1001B518B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DBECD2F1EA86FC7001EE73F /* SiRui */;
+			targetProxy = 0DEFE50B1EC5A1F1001B518B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0DBECD4F1EA86FEE001EE73F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DBECD501EA86FEE001EE73F /* Base */,
+			);
+			name = Main.storyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E86CC6A51EBAC31B00004920 /* SRMap.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E86CC6A71EBAF3F800004920 /* Base */,
+			);
+			name = SRMap.storyboard;
+			sourceTree = "<group>";
+		};
+		E8E301361EA9DE0500A94399 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8E301371EA9DE0500A94399 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DBECD451EA86FC7001EE73F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0DBECD461EA86FC7001EE73F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DBECD481EA86FC7001EE73F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B76E808D40EC0BFB577D9CBB /* Pods-SiRui.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = B3LET74VX6;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SiRui",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SiRui/PrefixHeader.pch";
+				INFOPLIST_FILE = SiRui/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinapke.siruiv2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0DBECD491EA86FC7001EE73F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F1D5F2060E01D319D051F39 /* Pods-SiRui.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = B3LET74VX6;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SiRui",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SiRui/PrefixHeader.pch";
+				INFOPLIST_FILE = SiRui/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinapke.siruiv2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		0DEFE50E1EC5A1F1001B518B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F134B1A3A5D37A43F249625 /* Pods-SiRuiTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				DEVELOPMENT_TEAM = B3LET74VX6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SiRui",
+				);
+				INFOPLIST_FILE = SiRuiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinapke.SiRuiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SiRui.app/SiRui";
+			};
+			name = Debug;
+		};
+		0DEFE50F1EC5A1F1001B518B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69B9CC25D0532ED28795BE14 /* Pods-SiRuiTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				DEVELOPMENT_TEAM = B3LET74VX6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SiRui",
+				);
+				INFOPLIST_FILE = SiRuiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinapke.SiRuiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SiRui.app/SiRui";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DBECD2B1EA86FC7001EE73F /* Build configuration list for PBXProject "SiRui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DBECD451EA86FC7001EE73F /* Debug */,
+				0DBECD461EA86FC7001EE73F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DBECD471EA86FC7001EE73F /* Build configuration list for PBXNativeTarget "SiRui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DBECD481EA86FC7001EE73F /* Debug */,
+				0DBECD491EA86FC7001EE73F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DEFE50D1EC5A1F1001B518B /* Build configuration list for PBXNativeTarget "SiRuiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DEFE50E1EC5A1F1001B518B /* Debug */,
+				0DEFE50F1EC5A1F1001B518B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DBECD281EA86FC7001EE73F /* Project object */;
+}

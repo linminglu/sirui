@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:APP/SiRui/SiRui.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:三方通用/Commons/Commons.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:业务/Business/Business.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:例子/Example/Example.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:接口/Connector/Connector.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

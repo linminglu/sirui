@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Brand Vehicle View Controller-->
+        <scene sceneID="mxs-GT-hEf">
+            <objects>
+                <viewController storyboardIdentifier="SRBrandVehicleViewController" id="Fho-n1-gBW" customClass="SRBrandVehicleViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ne0-KZ-rYN"/>
+                        <viewControllerLayoutGuide type="bottom" id="5IZ-96-l30"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qhM-g9-659">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F28-U4-Qak">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="MEi-no-iyV"/>
+                                </constraints>
+                                <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                                <items>
+                                    <barButtonItem image="quxiao" id="Ti3-fY-rtF">
+                                        <connections>
+                                            <action selector="buttonCancelPressed:" destination="Fho-n1-gBW" id="DMo-Q8-bhN"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="8ns-mi-07d"/>
+                                    <barButtonItem image="wancheng" id="yOd-dL-6mn">
+                                        <connections>
+                                            <action selector="buttonDonePressed:" destination="Fho-n1-gBW" id="EG3-zD-sdm"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="barTintColor" red="0.1029243990778923" green="0.22852814197540283" blue="0.31222426891326904" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </toolbar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="67b-R6-L9w" userLabel="brandTable">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" red="0.27255889770000002" green="0.34959107639999998" blue="0.4015789032" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="0.0"/>
+                                <color key="sectionIndexColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Fho-n1-gBW" id="R2h-zT-iIv"/>
+                                    <outlet property="delegate" destination="Fho-n1-gBW" id="90b-vv-oIR"/>
+                                </connections>
+                            </tableView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vYt-Z7-TkD" userLabel="containerView">
+                                <rect key="frame" x="77" y="64" width="298" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="40" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="UOU-ua-xzq" userLabel="subTable">
+                                        <rect key="frame" x="0.0" y="0.0" width="298" height="603"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.27255889770000002" green="0.34959107639999998" blue="0.4015789032" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <gestureRecognizers/>
+                                        <color key="sectionIndexColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="sectionIndexBackgroundColor" red="0.27255889770000002" green="0.34959107639999998" blue="0.4015789032" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="sectionIndexTrackingBackgroundColor" red="0.27255889770000002" green="0.34959107639999998" blue="0.4015789032" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <outlet property="dataSource" destination="Fho-n1-gBW" id="jD9-XK-tv8"/>
+                                            <outlet property="delegate" destination="Fho-n1-gBW" id="quK-lg-GcU"/>
+                                        </connections>
+                                    </tableView>
+                                </subviews>
+                                <gestureRecognizers/>
+                                <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="0.0"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="sTR-9B-PPe" appends="YES" id="jTC-mK-hjX"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.10292439909999999" green="0.22852814199999999" blue="0.31222426889999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="67b-R6-L9w" firstAttribute="top" secondItem="F28-U4-Qak" secondAttribute="bottom" id="0ai-As-QYK"/>
+                            <constraint firstItem="5IZ-96-l30" firstAttribute="top" secondItem="67b-R6-L9w" secondAttribute="bottom" id="98S-pV-1gy"/>
+                            <constraint firstItem="F28-U4-Qak" firstAttribute="top" secondItem="ne0-KZ-rYN" secondAttribute="bottom" id="AkT-b2-yuk"/>
+                            <constraint firstItem="F28-U4-Qak" firstAttribute="leading" secondItem="qhM-g9-659" secondAttribute="leading" id="Wls-Iw-5dj"/>
+                            <constraint firstAttribute="trailing" secondItem="67b-R6-L9w" secondAttribute="trailing" id="XhO-fp-lyV"/>
+                            <constraint firstAttribute="trailing" secondItem="F28-U4-Qak" secondAttribute="trailing" id="hHb-35-jul"/>
+                            <constraint firstItem="67b-R6-L9w" firstAttribute="leading" secondItem="qhM-g9-659" secondAttribute="leading" id="vt9-lY-Wsz"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="NUD-KN-ORL"/>
+                    <connections>
+                        <outlet property="brandTable" destination="67b-R6-L9w" id="KMr-83-Vof"/>
+                        <outlet property="buttonCancel" destination="Ti3-fY-rtF" id="sWn-SM-a8c"/>
+                        <outlet property="containerView" destination="vYt-Z7-TkD" id="JGA-Ya-mgx"/>
+                        <outlet property="subTable" destination="UOU-ua-xzq" id="koS-ai-N1O"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I5R-RK-aYN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="sTR-9B-PPe">
+                    <connections>
+                        <action selector="handleContainerViewSwipeGestureRecognizer:" destination="Fho-n1-gBW" id="czK-0P-l8b"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-120" y="821"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="quxiao" width="15" height="15"/>
+        <image name="wancheng" width="22" height="15"/>
+    </resources>
+</document>

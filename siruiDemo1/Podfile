@@ -1,0 +1,294 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'git@github.com:aliyun/aliyun-specs.git'
+
+platform :ios,'8.0'
+
+workspace ‘SiRui'
+
+
+#abstract_target 'SR’ do
+#
+
+
+target 'Connector' do
+    
+    project '接口/Connector/Connector.xcodeproj'
+    # Add this if you are targeting iOS 8+ or using Swift
+    pod 'CocoaAsyncSocket'
+    pod ‘FZKTools’,’~>1.0.4’
+    pod 'SUIMVVMKit','~>0.5.2'
+    pod 'SSKeychain', '~> 1.4.1'
+    pod 'MJExtension', '~> 3.0.13'
+    pod 'ReactiveCocoa', '~> 2.5'
+    pod 'YYKit'
+    pod 'BabyBluetooth'
+    pod 'SVProgressHUD', '~> 1.1.2'
+end
+
+target 'ConnectorTests' do #接口单元测试
+    
+    project '接口/Connector/Connector.xcodeproj'
+    # Add this if you are targeting iOS 8+ or using Swift
+    pod 'CocoaAsyncSocket'
+    pod ‘FZKTools’,’~>1.0.4’
+    pod 'SUIMVVMKit','~>0.5.2'
+    pod 'SSKeychain', '~> 1.4.1'
+    pod 'MJExtension', '~> 3.0.13'
+    pod 'ReactiveCocoa', '~> 2.5'
+    pod 'YYKit'
+    pod 'BabyBluetooth'
+    pod 'SVProgressHUD', '~> 1.1.2'
+end
+
+
+target 'Example' do
+    
+    project '例子/Example/Example.xcodeproj'
+    pod 'SVProgressHUD', '~> 1.1.2'
+    pod 'AMapNavi','~>2.3.0' #已包含3D地图，无需单独引入3D地图
+    pod 'AMapSearch','~>4.5.0'
+    pod 'AMapLocation','~>2.3.1'
+    pod 'BaiduMapKit','~>3.2.1'
+    pod ‘FZKTools’,’~>1.0.4’
+#    pod 'YYModel','~>1.0.4'
+    
+    pod 'ShareSDK3',:git => ‘https://git.oschina.net/MobClub/ShareSDK-for-iOS.git'
+    # UI模块(非必须，需要用到ShareSDK提供的分享菜单栏和分享编辑页面需要以下1行)
+    pod 'ShareSDK3/ShareSDKUI',:git => ‘https://git.oschina.net/MobClub/ShareSDK-for-iOS.git'
+    
+    # 平台SDK模块(对照一下平台，需要的加上，如果只需要QQ、微信、新浪微博，只需要以下3行)
+    pod 'ShareSDK3/ShareSDKPlatforms/QQ',:git => ‘https://git.oschina.net/MobClub/ShareSDK-for-iOS.git'
+    pod 'ShareSDK3/ShareSDKPlatforms/SinaWeibo',:git => ‘https://git.oschina.net/MobClub/ShareSDK-for-iOS.git'
+    pod 'ShareSDK3/ShareSDKPlatforms/WeChat',:git => ‘https://git.oschina.net/MobClub/ShareSDK-for-iOS.git'
+    
+    #其他分享平台
+    pod 'ShareSDK3/ShareSDKPlatforms/Copy',:git => ‘https://git.oschina.net/MobClub/ShareSDK-for-iOS.git'
+    pod 'ShareSDK3/ShareSDKPlatforms/SMS',:git => ‘https://git.oschina.net/MobClub/ShareSDK-for-iOS.git'
+    
+    #阿里云
+    pod 'AlicloudPush', '~> 1.9.1'
+    pod 'AlicloudHTTPDNS', '~> 1.2.0'
+    #动画
+    pod 'pop'
+    pod 'lottie-ios','~>1.5.1'
+    
+    pod 'CocoaAsyncSocket'
+    
+    pod 'SUIMVVMKit','~>0.5.2'
+    pod 'SSKeychain', '~> 1.4.1'
+    
+    
+    pod 'Routable'
+    pod 'BabyBluetooth'
+    pod 'YYKit'
+    pod 'MJExtension', '~> 3.0.13'
+    
+end
+
+target 'Commons' do
+    
+    project '三方通用/Commons/Commons.xcodeproj'
+    pod 'SVProgressHUD', '~> 1.1.2'
+    pod 'AMapNavi','~>2.3.0' #已包含3D地图，无需单独引入3D地图
+    pod 'AMapSearch','~>4.5.0'
+    pod 'AMapLocation','~>2.3.1'
+    pod 'BaiduMapKit','~>3.2.1'
+    pod ‘FZKTools’,’~>1.0.4’
+    pod 'YYModel','~>1.0.4'
+    pod 'ShareSDK3',:git => ‘https://git.oschina.net/MobClub/ShareSDK-for-iOS.git'
+    # UI模块(非必须，需要用到ShareSDK提供的分享菜单栏和分享编辑页面需要以下1行)
+    pod 'ShareSDK3/ShareSDKUI',:git => ‘https://git.oschina.net/MobClub/ShareSDK-for-iOS.git'
+    
+    # 平台SDK模块(对照一下平台，需要的加上，如果只需要QQ、微信、新浪微博，只需要以下3行)
+    pod 'ShareSDK3/ShareSDKPlatforms/QQ',:git => ‘https://git.oschina.net/MobClub/ShareSDK-for-iOS.git'
+    pod 'ShareSDK3/ShareSDKPlatforms/SinaWeibo',:git => ‘https://git.oschina.net/MobClub/ShareSDK-for-iOS.git'
+    pod 'ShareSDK3/ShareSDKPlatforms/WeChat',:git => ‘https://git.oschina.net/MobClub/ShareSDK-for-iOS.git'
+    
+    #其他分享平台
+    pod 'ShareSDK3/ShareSDKPlatforms/Copy',:git => ‘https://git.oschina.net/MobClub/ShareSDK-for-iOS.git'
+    pod 'ShareSDK3/ShareSDKPlatforms/SMS',:git => ‘https://git.oschina.net/MobClub/ShareSDK-for-iOS.git'
+    
+    #阿里云
+    pod 'AlicloudPush', '~> 1.9.1'
+    pod 'AlicloudHTTPDNS', '~> 1.2.0'
+    
+    #动画
+    pod 'pop'
+    pod 'lottie-ios','~>1.5.1'
+    
+    #微信支付
+    #   pod 'WechatOpenSDK'
+    pod 'SSKeychain', '~> 1.4.1'
+end
+
+target 'CommonsTests' do #通用单元测试
+    
+    project '三方通用/Commons/Commons.xcodeproj'
+    pod 'SVProgressHUD', '~> 1.1.2'
+    pod 'AMapNavi','~>2.3.0' #已包含3D地图，无需单独引入3D地图
+    pod 'AMapSearch','~>4.5.0'
+    pod 'AMapLocation','~>2.3.1'
+    pod 'BaiduMapKit','~>3.2.1'
+    pod ‘FZKTools’,’~>1.0.4’
+    pod 'YYModel','~>1.0.4'
+    pod 'ShareSDK3',:git => ‘https://git.oschina.net/MobClub/ShareSDK-for-iOS.git'
+    # UI模块(非必须，需要用到ShareSDK提供的分享菜单栏和分享编辑页面需要以下1行)
+    pod 'ShareSDK3/ShareSDKUI',:git => ‘https://git.oschina.net/MobClub/ShareSDK-for-iOS.git'
+    
+    # 平台SDK模块(对照一下平台，需要的加上，如果只需要QQ、微信、新浪微博，只需要以下3行)
+    pod 'ShareSDK3/ShareSDKPlatforms/QQ',:git => ‘https://git.oschina.net/MobClub/ShareSDK-for-iOS.git'
+    pod 'ShareSDK3/ShareSDKPlatforms/SinaWeibo',:git => ‘https://git.oschina.net/MobClub/ShareSDK-for-iOS.git'
+    pod 'ShareSDK3/ShareSDKPlatforms/WeChat',:git => ‘https://git.oschina.net/MobClub/ShareSDK-for-iOS.git'
+    
+    #其他分享平台
+    pod 'ShareSDK3/ShareSDKPlatforms/Copy',:git => ‘https://git.oschina.net/MobClub/ShareSDK-for-iOS.git'
+    pod 'ShareSDK3/ShareSDKPlatforms/SMS',:git => ‘https://git.oschina.net/MobClub/ShareSDK-for-iOS.git'
+    
+    #阿里云
+    pod 'AlicloudPush', '~> 1.9.1'
+    pod 'AlicloudHTTPDNS', '~> 1.2.0'
+    
+    #动画
+    pod 'pop'
+    pod 'lottie-ios','~>1.5.1'
+    
+    #微信支付
+    #   pod 'WechatOpenSDK'
+    pod 'SSKeychain', '~> 1.4.1'
+end
+
+
+target 'Business' do
+    
+    project '业务/Business/Business.xcodeproj'
+    pod 'CocoaAsyncSocket'
+    pod ‘FZKTools’,’~>1.0.4’
+    pod 'SUIMVVMKit','~>0.5.2'
+    pod 'SSKeychain', '~> 1.4.1'
+    pod 'MJExtension', '~> 3.0.13'
+    pod 'YYKit'
+    pod 'SVProgressHUD', '~> 1.1.2'
+    pod 'BabyBluetooth'
+   
+end
+
+target 'BusinessTests' do #业务单元测试
+    
+    project '业务/Business/Business.xcodeproj'
+    pod 'CocoaAsyncSocket'
+    pod ‘FZKTools’,’~>1.0.4’
+    pod 'SUIMVVMKit','~>0.5.2'
+    pod 'SSKeychain', '~> 1.4.1'
+    pod 'MJExtension', '~> 3.0.13'
+    pod 'YYKit'
+    pod 'SVProgressHUD', '~> 1.1.2'
+    pod 'BabyBluetooth'
+end
+
+
+
+target ‘SiRui’ do
+    
+    project 'APP/SiRui/SiRui.xcodeproj'
+    
+    pod 'SVProgressHUD', '~> 1.1.2'
+    pod 'AMapNavi','~>2.3.0' #已包含3D地图，无需单独引入3D地图
+    pod 'AMapSearch','~>4.5.0'
+    pod 'AMapLocation','~>2.3.1'
+    
+    pod 'BaiduMapKit','~>3.2.1'
+    pod ‘FZKTools’,’~>1.0.4’
+    #   pod 'YYModel','~>1.0.4'
+    pod 'SUIMVVMKit','~>0.5.2'
+    pod 'ShareSDK3',:git => ‘https://git.oschina.net/MobClub/ShareSDK-for-iOS.git'
+    #   # UI模块(非必须，需要用到ShareSDK提供的分享菜单栏和分享编辑页面需要以下1行)
+    pod 'ShareSDK3/ShareSDKUI',:git => ‘https://git.oschina.net/MobClub/ShareSDK-for-iOS.git'
+    #
+    #   # 平台SDK模块(对照一下平台，需要的加上，如果只需要QQ、微信、新浪微博，只需要以下3行)
+    pod 'ShareSDK3/ShareSDKPlatforms/QQ',:git => ‘https://git.oschina.net/MobClub/ShareSDK-for-iOS.git'
+    pod 'ShareSDK3/ShareSDKPlatforms/SinaWeibo',:git => ‘https://git.oschina.net/MobClub/ShareSDK-for-iOS.git'
+    pod 'ShareSDK3/ShareSDKPlatforms/WeChat',:git => ‘https://git.oschina.net/MobClub/ShareSDK-for-iOS.git'
+    #
+    #   #其他分享平台
+    pod 'ShareSDK3/ShareSDKPlatforms/Copy',:git => ‘https://git.oschina.net/MobClub/ShareSDK-for-iOS.git'
+    pod 'ShareSDK3/ShareSDKPlatforms/SMS',:git => ‘https://git.oschina.net/MobClub/ShareSDK-for-iOS.git'
+    #
+    #   #阿里云
+    pod 'AlicloudPush', '~> 1.9.1'
+    pod 'AlicloudHTTPDNS', '~> 1.2.0'
+    
+    #动画
+    pod 'pop'
+    pod 'lottie-ios','~>1.5.1'
+    
+    pod 'SSKeychain', '~> 1.4.1'
+    pod 'CocoaAsyncSocket'
+    pod 'RTRootNavigationController','~>0.5.24'
+    pod 'IQKeyboardManager', '~> 4.0.9'
+    pod 'LBXScan','~> 1.1.1'
+    pod 'LBXAlertAction','~>1.0.3'
+    pod 'YYKit'
+    pod 'MJExtension', '~> 3.0.13'
+    pod 'UAProgressView'
+    pod 'SDWebImage', '~> 4.0.0'
+    pod 'ZWIntroductionViewController', '~> 0.3.7'
+    pod 'XHLaunchAd', '~> 3.4.4'
+    pod 'FSCalendar'
+    pod ‘MMDrawerController’,’~>0.6.0’
+    pod 'BabyBluetooth'
+    pod 'MJRefresh', '~> 3.1.12'
+end
+
+target ‘SiRuiTests’ do #思锐单元测试
+    
+    project 'APP/SiRui/SiRui.xcodeproj'
+    
+    pod 'SVProgressHUD', '~> 1.1.2'
+    pod 'AMapNavi','~>2.3.0' #已包含3D地图，无需单独引入3D地图
+    pod 'AMapSearch','~>4.5.0'
+    pod 'AMapLocation','~>2.3.1'
+    
+    pod 'BaiduMapKit','~>3.2.1'
+    pod ‘FZKTools’,’~>1.0.4’
+    #   pod 'YYModel','~>1.0.4'
+    pod 'SUIMVVMKit','~>0.5.2'
+    pod 'ShareSDK3',:git => ‘https://git.oschina.net/MobClub/ShareSDK-for-iOS.git'
+    #   # UI模块(非必须，需要用到ShareSDK提供的分享菜单栏和分享编辑页面需要以下1行)
+    pod 'ShareSDK3/ShareSDKUI',:git => ‘https://git.oschina.net/MobClub/ShareSDK-for-iOS.git'
+    #
+    #   # 平台SDK模块(对照一下平台，需要的加上，如果只需要QQ、微信、新浪微博，只需要以下3行)
+    pod 'ShareSDK3/ShareSDKPlatforms/QQ',:git => ‘https://git.oschina.net/MobClub/ShareSDK-for-iOS.git'
+    pod 'ShareSDK3/ShareSDKPlatforms/SinaWeibo',:git => ‘https://git.oschina.net/MobClub/ShareSDK-for-iOS.git'
+    pod 'ShareSDK3/ShareSDKPlatforms/WeChat',:git => ‘https://git.oschina.net/MobClub/ShareSDK-for-iOS.git'
+    #
+    #   #其他分享平台
+    pod 'ShareSDK3/ShareSDKPlatforms/Copy',:git => ‘https://git.oschina.net/MobClub/ShareSDK-for-iOS.git'
+    pod 'ShareSDK3/ShareSDKPlatforms/SMS',:git => ‘https://git.oschina.net/MobClub/ShareSDK-for-iOS.git'
+    #
+    #   #阿里云
+    pod 'AlicloudPush', '~> 1.9.1'
+    pod 'AlicloudHTTPDNS', '~> 1.2.0'
+    
+    #动画
+    pod 'pop'
+    pod 'lottie-ios','~>1.5.1'
+    
+    pod 'SSKeychain', '~> 1.4.1'
+    pod 'CocoaAsyncSocket'
+    pod 'RTRootNavigationController','~>0.5.24'
+    pod 'IQKeyboardManager', '~> 4.0.9'
+    pod 'LBXScan','~> 1.1.1'
+    pod 'LBXAlertAction','~>1.0.3'
+    pod 'YYKit'
+    pod 'MJExtension', '~> 3.0.13'
+    pod 'UAProgressView'
+    pod 'SDWebImage', '~> 4.0.0'
+    pod 'ZWIntroductionViewController', '~> 0.3.7'
+    pod 'XHLaunchAd', '~> 3.4.4'
+    pod 'FSCalendar'
+    pod ‘MMDrawerController’,’~>0.6.0’
+    pod 'BabyBluetooth'
+    pod 'MJRefresh', '~> 3.1.12'
+end
+
+#end

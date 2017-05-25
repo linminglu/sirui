@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WXPayAppkey</key>
+	<string></string>
+	<key>AliPayAppkey</key>
+	<string></string>
+	<key>AliPayAppScheme</key>
+	<string></string>
+	<key>AliPushAppkey</key>
+	<string></string>
+	<key>AliPushAppSecret</key>
+	<string></string>
+	<key>AliHTTPDNSPreHost</key>
+	<string></string>
+	<key>AliHTTPDNSCount</key>
+	<integer>0</integer>
+	<key>ShareSDKAppkey</key>
+	<string></string>
+	<key>ShareSDKQQAppkey</key>
+	<string></string>
+	<key>ShareSDKQQAppId</key>
+	<string></string>
+	<key>ShareSDKWebchatAppkey</key>
+	<string></string>
+	<key>ShareSDKWebchatAppSecret</key>
+	<string></string>
+	<key>ShareSDKSinaAppkey</key>
+	<string></string>
+	<key>ShareSDKSinaAppSecret</key>
+	<string></string>
+	<key>GaodeMapAppkey</key>
+	<string></string>
+	<key>BaiduMapAppkey</key>
+	<string></string>
+</dict>
+</plist>
